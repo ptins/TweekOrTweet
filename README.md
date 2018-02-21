@@ -14,6 +14,7 @@ The first part is what you broadcast directly, namely tweets, and for each tweet
 - [ ] 'created_at': 'Fri Dec 01 13:26:33 +0000 2017'
 - [ ] 'text': 'Your funniest #DecorationDisaster tweets! https://t.co/0s88ssjFYQ #FallonTonight'
 - [ ] 'entities': {See Below}
+
 'entities': {
     'hashtags': [
          {'text': 'DecorationDisaster', 'indices': [14, 33]}, 
@@ -28,9 +29,6 @@ The first part is what you broadcast directly, namely tweets, and for each tweet
          'indices': [42, 65]}
     ]
 }
-- [ ] 
-- [ ] 
-
 
 Additionally, your profile is also something you broadcast.
 - [ ] 'location': 'New York, New York'
