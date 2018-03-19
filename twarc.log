@@ -23968,3 +23968,1360 @@
 2018-03-19 17:56:01,922 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
 2018-03-19 17:56:02,240 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
 2018-03-19 17:56:03,098 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:03,507 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:03,918 INFO found reply: 972955439800504321
+2018-03-19 17:56:03,918 INFO archived 972955439800504321
+2018-03-19 17:56:03,918 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:04,326 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:04,736 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:04,975 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:05,049 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:05,049 INFO prune=()
+2018-03-19 17:56:05,608 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:05,608 INFO hydrating ['951186472815783937']
+2018-03-19 17:56:05,609 INFO creating http session
+2018-03-19 17:56:05,609 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:05,889 INFO archived 951186472815783937
+2018-03-19 17:56:05,889 INFO looking for replies to: 951186472815783937
+2018-03-19 17:56:05,889 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:06,288 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:06,686 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:07,293 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:07,715 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:08,052 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:08,294 INFO found reply: 972698928767479809
+2018-03-19 17:56:08,294 INFO archived 972698928767479809
+2018-03-19 17:56:08,294 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:08,628 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:09,037 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:09,130 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:09,130 INFO prune=()
+2018-03-19 17:56:09,657 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:09,657 INFO hydrating ['949063950687244288']
+2018-03-19 17:56:09,658 INFO creating http session
+2018-03-19 17:56:09,658 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '949063950687244288', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:09,937 INFO archived 949063950687244288
+2018-03-19 17:56:09,938 INFO looking for replies to: 949063950687244288
+2018-03-19 17:56:09,938 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:10,553 INFO found reply: 975509947701227520
+2018-03-19 17:56:10,553 INFO archived 975509947701227520
+2018-03-19 17:56:10,553 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:11,002 INFO found reply: 975078347129663488
+2018-03-19 17:56:11,003 INFO archived 975078347129663488
+2018-03-19 17:56:11,003 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:11,383 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:11,962 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:12,416 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:12,929 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:13,338 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:13,901 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:13,981 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:13,981 INFO prune=()
+2018-03-19 17:56:14,506 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:14,506 INFO hydrating ['945768492195774464']
+2018-03-19 17:56:14,507 INFO creating http session
+2018-03-19 17:56:14,507 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '945768492195774464', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:14,836 INFO archived 945768492195774464
+2018-03-19 17:56:14,836 INFO looking for replies to: 945768492195774464
+2018-03-19 17:56:14,836 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:15,435 INFO found reply: 975401881613881344
+2018-03-19 17:56:15,435 INFO archived 975401881613881344
+2018-03-19 17:56:15,435 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:16,107 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:16,574 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:16,907 INFO found reply: 973929563960107008
+2018-03-19 17:56:16,907 INFO archived 973929563960107008
+2018-03-19 17:56:16,908 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:17,332 INFO found reply: 972955960275865600
+2018-03-19 17:56:17,332 INFO archived 972955960275865600
+2018-03-19 17:56:17,333 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:17,552 INFO found reply: 972699009373687808
+2018-03-19 17:56:17,552 INFO archived 972699009373687808
+2018-03-19 17:56:17,552 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:17,945 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:18,381 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:18,458 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:18,458 INFO prune=()
+2018-03-19 17:56:18,988 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:18,989 INFO hydrating ['944276478367281153']
+2018-03-19 17:56:18,989 INFO creating http session
+2018-03-19 17:56:18,990 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '944276478367281153', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:19,277 INFO archived 944276478367281153
+2018-03-19 17:56:19,277 INFO looking for replies to: 944276478367281153
+2018-03-19 17:56:19,278 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:19,586 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:20,050 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:20,403 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:21,019 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:21,317 INFO found reply: 972957075008643072
+2018-03-19 17:56:21,317 INFO archived 972957075008643072
+2018-03-19 17:56:21,317 INFO found reply: 972948348608155650
+2018-03-19 17:56:21,318 INFO archived 972948348608155650
+2018-03-19 17:56:21,318 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:21,734 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:22,297 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:22,759 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:22,836 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:22,836 INFO prune=()
+2018-03-19 17:56:23,370 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:23,370 INFO hydrating ['939933947496157185']
+2018-03-19 17:56:23,371 INFO creating http session
+2018-03-19 17:56:23,371 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '939933947496157185', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:23,700 INFO archived 939933947496157185
+2018-03-19 17:56:23,700 INFO looking for replies to: 939933947496157185
+2018-03-19 17:56:23,700 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:24,085 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:24,449 INFO found reply: 975105371294584832
+2018-03-19 17:56:24,450 INFO archived 975105371294584832
+2018-03-19 17:56:24,450 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:24,908 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:25,134 INFO found reply: 974222510286954496
+2018-03-19 17:56:25,136 INFO archived 974222510286954496
+2018-03-19 17:56:25,136 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:25,575 INFO found reply: 972973362384441344
+2018-03-19 17:56:25,575 INFO archived 972973362384441344
+2018-03-19 17:56:25,575 INFO found reply: 972968488728965120
+2018-03-19 17:56:25,575 INFO archived 972968488728965120
+2018-03-19 17:56:25,575 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:26,026 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:26,393 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:26,802 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:26,876 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:26,876 INFO prune=()
+2018-03-19 17:56:27,408 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:27,409 INFO hydrating ['939221170255261696']
+2018-03-19 17:56:27,410 INFO creating http session
+2018-03-19 17:56:27,410 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '939221170255261696', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:27,683 INFO archived 939221170255261696
+2018-03-19 17:56:27,684 INFO looking for replies to: 939221170255261696
+2018-03-19 17:56:27,684 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:28,240 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:28,611 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:29,043 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:29,518 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:29,927 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:30,372 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:30,951 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:31,360 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:31,452 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:31,452 INFO prune=()
+2018-03-19 17:56:32,001 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:32,002 INFO hydrating ['934491918637129728']
+2018-03-19 17:56:32,002 INFO creating http session
+2018-03-19 17:56:32,002 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '934491918637129728', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:32,309 INFO archived 934491918637129728
+2018-03-19 17:56:32,309 INFO looking for replies to: 934491918637129728
+2018-03-19 17:56:32,309 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:32,788 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:33,038 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:33,408 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:33,918 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:34,262 INFO found reply: 972971131392200705
+2018-03-19 17:56:34,262 INFO archived 972971131392200705
+2018-03-19 17:56:34,263 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:34,655 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:35,150 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:35,560 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:35,638 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:35,639 INFO prune=()
+2018-03-19 17:56:36,173 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:36,174 INFO hydrating ['932483962223636480']
+2018-03-19 17:56:36,174 INFO creating http session
+2018-03-19 17:56:36,175 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '932483962223636480', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:36,466 INFO archived 932483962223636480
+2018-03-19 17:56:36,466 INFO looking for replies to: 932483962223636480
+2018-03-19 17:56:36,466 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:36,949 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:37,304 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:37,769 INFO found reply: 974817911234879489
+2018-03-19 17:56:37,769 INFO archived 974817911234879489
+2018-03-19 17:56:37,769 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:38,138 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:38,470 INFO found reply: 972972156442341377
+2018-03-19 17:56:38,470 INFO archived 972972156442341377
+2018-03-19 17:56:38,470 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:38,956 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:39,171 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:39,552 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:39,628 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:39,628 INFO prune=()
+2018-03-19 17:56:40,134 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:40,135 INFO hydrating ['921423644257144834']
+2018-03-19 17:56:40,135 INFO creating http session
+2018-03-19 17:56:40,136 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '921423644257144834', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:40,427 INFO archived 921423644257144834
+2018-03-19 17:56:40,428 INFO looking for replies to: 921423644257144834
+2018-03-19 17:56:40,428 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:40,988 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:41,360 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:41,805 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:42,228 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:42,580 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:42,932 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:43,397 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:43,773 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:43,849 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:43,849 INFO prune=()
+2018-03-19 17:56:44,377 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:44,378 INFO hydrating ['920676681446313984']
+2018-03-19 17:56:44,378 INFO creating http session
+2018-03-19 17:56:44,379 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '920676681446313984', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:44,689 INFO archived 920676681446313984
+2018-03-19 17:56:44,689 INFO looking for replies to: 920676681446313984
+2018-03-19 17:56:44,689 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:45,101 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:45,454 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:45,799 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:46,250 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:46,632 INFO found reply: 972966989063966720
+2018-03-19 17:56:46,632 INFO archived 972966989063966720
+2018-03-19 17:56:46,632 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:47,129 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:47,540 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:47,798 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:47,944 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:47,945 INFO prune=()
+2018-03-19 17:56:48,518 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:48,519 INFO hydrating ['919984095081451520']
+2018-03-19 17:56:48,519 INFO creating http session
+2018-03-19 17:56:48,520 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '919984095081451520', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:48,805 INFO archived 919984095081451520
+2018-03-19 17:56:48,806 INFO looking for replies to: 919984095081451520
+2018-03-19 17:56:48,806 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:49,230 INFO found reply: 975404813738536965
+2018-03-19 17:56:49,230 INFO archived 975404813738536965
+2018-03-19 17:56:49,230 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:49,416 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:49,791 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:50,204 INFO found reply: 973766488103505920
+2018-03-19 17:56:50,204 INFO archived 973766488103505920
+2018-03-19 17:56:50,204 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:50,816 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:51,328 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:51,518 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:51,719 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:51,797 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:51,798 INFO prune=()
+2018-03-19 17:56:52,304 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 17:56:52,305 INFO hydrating ['919922734280343552']
+2018-03-19 17:56:52,305 INFO creating http session
+2018-03-19 17:56:52,306 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '919922734280343552', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:52,593 INFO archived 919922734280343552
+2018-03-19 17:56:52,594 INFO looking for replies to: 919922734280343552
+2018-03-19 17:56:52,594 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended'}}
+2018-03-19 17:56:52,980 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '975293075714134015'}}
+2018-03-19 17:56:53,381 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '974882752494522368'}}
+2018-03-19 17:56:53,785 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '974231689810628607'}}
+2018-03-19 17:56:54,298 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '973419498559610879'}}
+2018-03-19 17:56:54,614 INFO found reply: 972973911087427585
+2018-03-19 17:56:54,614 INFO archived 972973911087427585
+2018-03-19 17:56:54,614 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972854960009371647'}}
+2018-03-19 17:56:55,195 INFO found reply: 972678086062944256
+2018-03-19 17:56:55,197 INFO archived 972678086062944256
+2018-03-19 17:56:55,197 INFO found reply: 972636485760401408
+2018-03-19 17:56:55,197 INFO archived 972636485760401408
+2018-03-19 17:56:55,197 INFO found reply: 972530214151577600
+2018-03-19 17:56:55,197 INFO archived 972530214151577600
+2018-03-19 17:56:55,198 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972524138534526978'}}
+2018-03-19 17:56:55,834 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972277895430311935'}}
+2018-03-19 17:56:56,243 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}}
+2018-03-19 17:56:56,323 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972207180446359551'}
+2018-03-19 17:56:56,323 INFO prune=()
+2018-03-19 18:02:34,160 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:02:34,161 INFO hydrating ['972194214841864194']
+2018-03-19 18:02:34,161 INFO creating http session
+2018-03-19 18:02:34,161 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:02:34,527 INFO archived 972194214841864194
+2018-03-19 18:02:34,527 INFO looking for replies to: 972194214841864194
+2018-03-19 18:02:34,527 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:02:34,593 WARNING rate limit exceeded: sleeping 484.4064471721649 secs
+2018-03-19 18:06:20,424 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:06:20,424 INFO hydrating ['972194214841864194']
+2018-03-19 18:06:20,425 INFO creating http session
+2018-03-19 18:06:20,425 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:20,716 INFO archived 972194214841864194
+2018-03-19 18:06:20,717 INFO looking for replies to: 972194214841864194
+2018-03-19 18:06:20,717 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:20,785 WARNING rate limit exceeded: sleeping 258.21457695961 secs
+2018-03-19 18:06:25,725 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:06:25,726 INFO hydrating ['968895132539019266']
+2018-03-19 18:06:25,726 INFO creating http session
+2018-03-19 18:06:25,727 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:26,079 INFO archived 968895132539019266
+2018-03-19 18:06:26,079 INFO looking for replies to: 968895132539019266
+2018-03-19 18:06:26,079 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:26,148 WARNING rate limit exceeded: sleeping 252.85174798965454 secs
+2018-03-19 18:06:28,887 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:06:28,888 INFO hydrating ['963845665641189382']
+2018-03-19 18:06:28,888 INFO creating http session
+2018-03-19 18:06:28,888 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:29,163 INFO archived 963845665641189382
+2018-03-19 18:06:29,163 INFO looking for replies to: 963845665641189382
+2018-03-19 18:06:29,164 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:29,232 WARNING rate limit exceeded: sleeping 249.7672939300537 secs
+2018-03-19 18:06:59,225 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:06:59,225 INFO hydrating ['972194214841864194']
+2018-03-19 18:06:59,226 INFO creating http session
+2018-03-19 18:06:59,226 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:59,524 INFO archived 972194214841864194
+2018-03-19 18:06:59,524 INFO looking for replies to: 972194214841864194
+2018-03-19 18:06:59,524 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:06:59,591 WARNING rate limit exceeded: sleeping 219.4080991744995 secs
+2018-03-19 18:08:34,723 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:08:34,723 INFO hydrating ['968895132539019266']
+2018-03-19 18:08:34,724 INFO creating http session
+2018-03-19 18:08:34,724 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:35,013 INFO archived 968895132539019266
+2018-03-19 18:08:35,013 INFO looking for replies to: 968895132539019266
+2018-03-19 18:08:35,013 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:35,081 WARNING rate limit exceeded: sleeping 123.9185688495636 secs
+2018-03-19 18:08:39,421 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:08:39,421 INFO hydrating ['963845665641189382']
+2018-03-19 18:08:39,422 INFO creating http session
+2018-03-19 18:08:39,422 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:39,697 INFO archived 963845665641189382
+2018-03-19 18:08:39,697 INFO looking for replies to: 963845665641189382
+2018-03-19 18:08:39,697 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:39,764 WARNING rate limit exceeded: sleeping 119.23529195785522 secs
+2018-03-19 18:08:41,237 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:08:41,237 INFO hydrating ['958581099357179909']
+2018-03-19 18:08:41,238 INFO creating http session
+2018-03-19 18:08:41,238 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:41,521 INFO archived 958581099357179909
+2018-03-19 18:08:41,521 INFO looking for replies to: 958581099357179909
+2018-03-19 18:08:41,521 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:08:42,134 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:08:42,134 INFO hydrating ['955316475388203010']
+2018-03-19 18:08:42,135 INFO creating http session
+2018-03-19 18:08:42,135 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '955316475388203010', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:23,470 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:23,471 INFO hydrating ['972194214841864194']
+2018-03-19 18:09:23,471 INFO creating http session
+2018-03-19 18:09:23,472 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:23,761 INFO archived 972194214841864194
+2018-03-19 18:09:23,761 INFO looking for replies to: 972194214841864194
+2018-03-19 18:09:23,761 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:23,828 WARNING rate limit exceeded: sleeping 75.17119479179382 secs
+2018-03-19 18:09:31,296 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:31,296 INFO hydrating ['968895132539019266']
+2018-03-19 18:09:31,297 INFO creating http session
+2018-03-19 18:09:31,297 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:31,663 INFO archived 968895132539019266
+2018-03-19 18:09:31,664 INFO looking for replies to: 968895132539019266
+2018-03-19 18:09:31,664 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:31,733 WARNING rate limit exceeded: sleeping 67.26682186126709 secs
+2018-03-19 18:09:32,807 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:32,807 INFO hydrating ['963845665641189382']
+2018-03-19 18:09:32,808 INFO creating http session
+2018-03-19 18:09:32,808 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:33,153 INFO archived 963845665641189382
+2018-03-19 18:09:33,153 INFO looking for replies to: 963845665641189382
+2018-03-19 18:09:33,153 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:33,220 WARNING rate limit exceeded: sleeping 65.77933597564697 secs
+2018-03-19 18:09:35,959 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:35,960 INFO hydrating ['958581099357179909']
+2018-03-19 18:09:35,960 INFO creating http session
+2018-03-19 18:09:35,961 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:36,226 INFO archived 958581099357179909
+2018-03-19 18:09:36,226 INFO looking for replies to: 958581099357179909
+2018-03-19 18:09:36,226 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:36,816 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:36,817 INFO hydrating ['955316475388203010']
+2018-03-19 18:09:36,817 INFO creating http session
+2018-03-19 18:09:36,817 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '955316475388203010', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:37,100 INFO archived 955316475388203010
+2018-03-19 18:09:37,101 INFO looking for replies to: 955316475388203010
+2018-03-19 18:09:37,101 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:37,166 WARNING rate limit exceeded: sleeping 61.83310317993164 secs
+2018-03-19 18:09:38,535 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:38,535 INFO hydrating ['954064649561010177']
+2018-03-19 18:09:38,536 INFO creating http session
+2018-03-19 18:09:38,536 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '954064649561010177', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:38,804 INFO archived 954064649561010177
+2018-03-19 18:09:38,805 INFO looking for replies to: 954064649561010177
+2018-03-19 18:09:38,805 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:38,873 WARNING rate limit exceeded: sleeping 60.12666916847229 secs
+2018-03-19 18:09:39,737 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:39,738 INFO hydrating ['952919377917202432']
+2018-03-19 18:09:39,738 INFO creating http session
+2018-03-19 18:09:39,738 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '952919377917202432', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:40,031 INFO archived 952919377917202432
+2018-03-19 18:09:40,031 INFO looking for replies to: 952919377917202432
+2018-03-19 18:09:40,031 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:40,652 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:40,652 INFO hydrating ['952263383050571777']
+2018-03-19 18:09:40,653 INFO creating http session
+2018-03-19 18:09:40,653 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '952263383050571777', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:40,925 INFO archived 952263383050571777
+2018-03-19 18:09:40,925 INFO looking for replies to: 952263383050571777
+2018-03-19 18:09:40,925 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:40,993 WARNING rate limit exceeded: sleeping 58.00699186325073 secs
+2018-03-19 18:09:41,696 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:41,697 INFO hydrating ['951186472815783937']
+2018-03-19 18:09:41,697 INFO creating http session
+2018-03-19 18:09:41,698 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:41,970 INFO archived 951186472815783937
+2018-03-19 18:09:41,970 INFO looking for replies to: 951186472815783937
+2018-03-19 18:09:41,971 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:42,518 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:42,519 INFO hydrating ['949063950687244288']
+2018-03-19 18:09:42,519 INFO creating http session
+2018-03-19 18:09:42,520 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '949063950687244288', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:43,131 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:43,132 INFO hydrating ['945768492195774464']
+2018-03-19 18:09:43,132 INFO creating http session
+2018-03-19 18:09:43,132 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '945768492195774464', 'tweet_mode': 'extended'}}
+2018-03-19 18:09:44,704 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:09:44,705 INFO hydrating ['939221170255261696']
+2018-03-19 18:09:44,705 INFO creating http session
+2018-03-19 18:09:44,706 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '939221170255261696', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:31,443 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:31,443 INFO hydrating ['972194214841864194']
+2018-03-19 18:10:31,444 INFO creating http session
+2018-03-19 18:10:31,444 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:31,722 INFO archived 972194214841864194
+2018-03-19 18:10:31,722 INFO looking for replies to: 972194214841864194
+2018-03-19 18:10:31,723 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:32,126 INFO found reply: 975845231114338304
+2018-03-19 18:10:32,126 INFO archived 975845231114338304
+2018-03-19 18:10:32,126 INFO found reply: 975654655970758656
+2018-03-19 18:10:32,126 INFO archived 975654655970758656
+2018-03-19 18:10:32,126 INFO found reply: 975629651509940224
+2018-03-19 18:10:32,127 INFO archived 975629651509940224
+2018-03-19 18:10:32,127 INFO found reply: 975586745361281024
+2018-03-19 18:10:32,127 INFO archived 975586745361281024
+2018-03-19 18:10:32,127 INFO found reply: 975516477871673344
+2018-03-19 18:10:32,127 INFO archived 975516477871673344
+2018-03-19 18:10:32,127 INFO found reply: 975471513360109568
+2018-03-19 18:10:32,127 INFO archived 975471513360109568
+2018-03-19 18:10:32,127 INFO found reply: 975457367079841792
+2018-03-19 18:10:32,127 INFO archived 975457367079841792
+2018-03-19 18:10:32,128 INFO found reply: 975428220534317057
+2018-03-19 18:10:32,128 INFO archived 975428220534317057
+2018-03-19 18:10:32,128 INFO found reply: 975421550743769088
+2018-03-19 18:10:32,128 INFO archived 975421550743769088
+2018-03-19 18:10:32,128 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:32,737 INFO found reply: 975119074631053313
+2018-03-19 18:10:32,738 INFO archived 975119074631053313
+2018-03-19 18:10:32,738 INFO found reply: 975009973544550401
+2018-03-19 18:10:32,738 INFO archived 975009973544550401
+2018-03-19 18:10:32,738 INFO found reply: 975008908891840512
+2018-03-19 18:10:32,738 INFO archived 975008908891840512
+2018-03-19 18:10:32,738 INFO found reply: 974886376364654592
+2018-03-19 18:10:32,738 INFO archived 974886376364654592
+2018-03-19 18:10:32,738 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:33,095 INFO found reply: 974817576621629440
+2018-03-19 18:10:33,095 INFO archived 974817576621629440
+2018-03-19 18:10:33,095 INFO found reply: 974802841276567557
+2018-03-19 18:10:33,095 INFO archived 974802841276567557
+2018-03-19 18:10:33,096 INFO found reply: 974770980886376448
+2018-03-19 18:10:33,096 INFO archived 974770980886376448
+2018-03-19 18:10:33,096 INFO found reply: 974729321100214272
+2018-03-19 18:10:33,096 INFO archived 974729321100214272
+2018-03-19 18:10:33,096 INFO found reply: 974720991317422085
+2018-03-19 18:10:33,096 INFO archived 974720991317422085
+2018-03-19 18:10:33,096 INFO found reply: 974675075986264064
+2018-03-19 18:10:33,096 INFO archived 974675075986264064
+2018-03-19 18:10:33,097 INFO found reply: 974440033703944193
+2018-03-19 18:10:33,097 INFO archived 974440033703944193
+2018-03-19 18:10:33,097 INFO found reply: 974435878750715904
+2018-03-19 18:10:33,097 INFO archived 974435878750715904
+2018-03-19 18:10:33,097 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:33,582 INFO found reply: 974075953134661632
+2018-03-19 18:10:33,582 INFO archived 974075953134661632
+2018-03-19 18:10:33,582 INFO found reply: 973974707769872390
+2018-03-19 18:10:33,583 INFO archived 973974707769872390
+2018-03-19 18:10:33,583 INFO found reply: 973946970388729857
+2018-03-19 18:10:33,583 INFO archived 973946970388729857
+2018-03-19 18:10:33,583 INFO found reply: 973938418064478208
+2018-03-19 18:10:33,583 INFO archived 973938418064478208
+2018-03-19 18:10:33,583 INFO found reply: 973920357978656768
+2018-03-19 18:10:33,583 INFO archived 973920357978656768
+2018-03-19 18:10:33,583 INFO found reply: 973779590635073536
+2018-03-19 18:10:33,584 INFO archived 973779590635073536
+2018-03-19 18:10:33,584 INFO found reply: 973734748869746688
+2018-03-19 18:10:33,584 INFO archived 973734748869746688
+2018-03-19 18:10:33,584 INFO found reply: 973724061053337600
+2018-03-19 18:10:33,584 INFO archived 973724061053337600
+2018-03-19 18:10:33,584 INFO found reply: 973712072327413761
+2018-03-19 18:10:33,584 INFO archived 973712072327413761
+2018-03-19 18:10:33,584 INFO found reply: 973633045625495552
+2018-03-19 18:10:33,584 INFO archived 973633045625495552
+2018-03-19 18:10:33,584 INFO found reply: 973564548065169408
+2018-03-19 18:10:33,585 INFO archived 973564548065169408
+2018-03-19 18:10:33,585 INFO found reply: 973517103704797184
+2018-03-19 18:10:33,585 INFO archived 973517103704797184
+2018-03-19 18:10:33,585 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:33,929 INFO found reply: 973419498559610880
+2018-03-19 18:10:33,929 INFO archived 973419498559610880
+2018-03-19 18:10:33,929 INFO found reply: 973387488323551233
+2018-03-19 18:10:33,930 INFO archived 973387488323551233
+2018-03-19 18:10:33,930 INFO found reply: 973386647285858305
+2018-03-19 18:10:33,930 INFO archived 973386647285858305
+2018-03-19 18:10:33,930 INFO found reply: 973369256657260544
+2018-03-19 18:10:33,930 INFO archived 973369256657260544
+2018-03-19 18:10:33,930 INFO found reply: 973252781103599616
+2018-03-19 18:10:33,930 INFO archived 973252781103599616
+2018-03-19 18:10:33,931 INFO found reply: 973222095797870594
+2018-03-19 18:10:33,931 INFO archived 973222095797870594
+2018-03-19 18:10:33,931 INFO found reply: 973188483480195072
+2018-03-19 18:10:33,931 INFO archived 973188483480195072
+2018-03-19 18:10:33,931 INFO found reply: 973135195023929344
+2018-03-19 18:10:33,931 INFO archived 973135195023929344
+2018-03-19 18:10:33,931 INFO found reply: 973042937981411334
+2018-03-19 18:10:33,931 INFO archived 973042937981411334
+2018-03-19 18:10:33,931 INFO found reply: 972990974950592512
+2018-03-19 18:10:33,931 INFO archived 972990974950592512
+2018-03-19 18:10:33,932 INFO found reply: 972980411092488192
+2018-03-19 18:10:33,932 INFO archived 972980411092488192
+2018-03-19 18:10:33,932 INFO found reply: 972960409169944577
+2018-03-19 18:10:33,932 INFO archived 972960409169944577
+2018-03-19 18:10:33,932 INFO found reply: 972953299384193024
+2018-03-19 18:10:33,932 INFO archived 972953299384193024
+2018-03-19 18:10:33,932 INFO found reply: 972891615218946048
+2018-03-19 18:10:33,932 INFO archived 972891615218946048
+2018-03-19 18:10:33,932 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:34,366 INFO found reply: 972794981265084416
+2018-03-19 18:10:34,366 INFO archived 972794981265084416
+2018-03-19 18:10:34,366 INFO found reply: 972773048481910785
+2018-03-19 18:10:34,366 INFO archived 972773048481910785
+2018-03-19 18:10:34,366 INFO found reply: 972710238817280000
+2018-03-19 18:10:34,367 INFO archived 972710238817280000
+2018-03-19 18:10:34,367 INFO found reply: 972695123850137601
+2018-03-19 18:10:34,367 INFO archived 972695123850137601
+2018-03-19 18:10:34,367 INFO found reply: 972669765847314432
+2018-03-19 18:10:34,367 INFO archived 972669765847314432
+2018-03-19 18:10:34,367 INFO found reply: 972664083685224448
+2018-03-19 18:10:34,367 INFO archived 972664083685224448
+2018-03-19 18:10:34,367 INFO found reply: 972657028735885312
+2018-03-19 18:10:34,368 INFO archived 972657028735885312
+2018-03-19 18:10:34,368 INFO found reply: 972647579891609600
+2018-03-19 18:10:34,368 INFO archived 972647579891609600
+2018-03-19 18:10:34,368 INFO found reply: 972621664847650817
+2018-03-19 18:10:34,368 INFO archived 972621664847650817
+2018-03-19 18:10:34,368 INFO found reply: 972618840902373377
+2018-03-19 18:10:34,368 INFO archived 972618840902373377
+2018-03-19 18:10:34,368 INFO found reply: 972607526930857984
+2018-03-19 18:10:34,368 INFO archived 972607526930857984
+2018-03-19 18:10:34,368 INFO found reply: 972607391115100160
+2018-03-19 18:10:34,369 INFO archived 972607391115100160
+2018-03-19 18:10:34,369 INFO found reply: 972600912790392832
+2018-03-19 18:10:34,369 INFO archived 972600912790392832
+2018-03-19 18:10:34,369 INFO found reply: 972584364004532226
+2018-03-19 18:10:34,369 INFO archived 972584364004532226
+2018-03-19 18:10:34,369 INFO found reply: 972579288514998272
+2018-03-19 18:10:34,369 INFO archived 972579288514998272
+2018-03-19 18:10:34,369 INFO found reply: 972572168419758083
+2018-03-19 18:10:34,369 INFO archived 972572168419758083
+2018-03-19 18:10:34,370 INFO found reply: 972566247090114561
+2018-03-19 18:10:34,370 INFO archived 972566247090114561
+2018-03-19 18:10:34,370 INFO found reply: 972565487266816001
+2018-03-19 18:10:34,370 INFO archived 972565487266816001
+2018-03-19 18:10:34,370 INFO found reply: 972559327797096454
+2018-03-19 18:10:34,370 INFO archived 972559327797096454
+2018-03-19 18:10:34,370 INFO found reply: 972557907052068865
+2018-03-19 18:10:34,370 INFO archived 972557907052068865
+2018-03-19 18:10:34,370 INFO found reply: 972557508538662917
+2018-03-19 18:10:34,370 INFO archived 972557508538662917
+2018-03-19 18:10:34,370 INFO found reply: 972550457506885632
+2018-03-19 18:10:34,371 INFO archived 972550457506885632
+2018-03-19 18:10:34,371 INFO found reply: 972550316481826817
+2018-03-19 18:10:34,371 INFO archived 972550316481826817
+2018-03-19 18:10:34,371 INFO found reply: 972546463090737152
+2018-03-19 18:10:34,371 INFO archived 972546463090737152
+2018-03-19 18:10:34,371 INFO found reply: 972530829258907651
+2018-03-19 18:10:34,371 INFO archived 972530829258907651
+2018-03-19 18:10:34,371 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:34,765 INFO found reply: 972516842966339585
+2018-03-19 18:10:34,765 INFO archived 972516842966339585
+2018-03-19 18:10:34,765 INFO found reply: 972505036751122433
+2018-03-19 18:10:34,765 INFO archived 972505036751122433
+2018-03-19 18:10:34,765 INFO found reply: 972500765880340480
+2018-03-19 18:10:34,766 INFO archived 972500765880340480
+2018-03-19 18:10:34,766 INFO found reply: 972494099218448384
+2018-03-19 18:10:34,766 INFO archived 972494099218448384
+2018-03-19 18:10:34,766 INFO found reply: 972492236092002305
+2018-03-19 18:10:34,766 INFO archived 972492236092002305
+2018-03-19 18:10:34,766 INFO found reply: 972488067067019264
+2018-03-19 18:10:34,766 INFO archived 972488067067019264
+2018-03-19 18:10:34,766 INFO found reply: 972487011507425280
+2018-03-19 18:10:34,767 INFO archived 972487011507425280
+2018-03-19 18:10:34,767 INFO found reply: 972472048734924801
+2018-03-19 18:10:34,767 INFO archived 972472048734924801
+2018-03-19 18:10:34,767 INFO found reply: 972468982761574401
+2018-03-19 18:10:34,767 INFO archived 972468982761574401
+2018-03-19 18:10:34,767 INFO found reply: 972464450425913344
+2018-03-19 18:10:34,767 INFO archived 972464450425913344
+2018-03-19 18:10:34,767 INFO found reply: 972457447527874565
+2018-03-19 18:10:34,767 INFO archived 972457447527874565
+2018-03-19 18:10:34,767 INFO found reply: 972453603079270400
+2018-03-19 18:10:34,768 INFO archived 972453603079270400
+2018-03-19 18:10:34,768 INFO found reply: 972451428978618368
+2018-03-19 18:10:34,768 INFO archived 972451428978618368
+2018-03-19 18:10:34,768 INFO found reply: 972446727075651585
+2018-03-19 18:10:34,768 INFO archived 972446727075651585
+2018-03-19 18:10:34,768 INFO found reply: 972438877276221440
+2018-03-19 18:10:34,768 INFO archived 972438877276221440
+2018-03-19 18:10:34,768 INFO found reply: 972425082311192576
+2018-03-19 18:10:34,768 INFO archived 972425082311192576
+2018-03-19 18:10:34,768 INFO found reply: 972419097303666688
+2018-03-19 18:10:34,768 INFO archived 972419097303666688
+2018-03-19 18:10:34,769 INFO found reply: 972398856930512896
+2018-03-19 18:10:34,769 INFO archived 972398856930512896
+2018-03-19 18:10:34,769 INFO found reply: 972382568443150342
+2018-03-19 18:10:34,769 INFO archived 972382568443150342
+2018-03-19 18:10:34,769 INFO found reply: 972380001713532928
+2018-03-19 18:10:34,769 INFO archived 972380001713532928
+2018-03-19 18:10:34,769 INFO found reply: 972375978067550210
+2018-03-19 18:10:34,769 INFO archived 972375978067550210
+2018-03-19 18:10:34,769 INFO found reply: 972371622228148224
+2018-03-19 18:10:34,769 INFO archived 972371622228148224
+2018-03-19 18:10:34,769 INFO found reply: 972366030155669505
+2018-03-19 18:10:34,769 INFO archived 972366030155669505
+2018-03-19 18:10:34,770 INFO found reply: 972363805329100800
+2018-03-19 18:10:34,770 INFO archived 972363805329100800
+2018-03-19 18:10:34,770 INFO found reply: 972362894540230656
+2018-03-19 18:10:34,770 INFO archived 972362894540230656
+2018-03-19 18:10:34,770 INFO found reply: 972359798816620544
+2018-03-19 18:10:34,770 INFO archived 972359798816620544
+2018-03-19 18:10:34,770 INFO found reply: 972358167060398080
+2018-03-19 18:10:34,770 INFO archived 972358167060398080
+2018-03-19 18:10:34,770 INFO found reply: 972351760181243905
+2018-03-19 18:10:34,770 INFO archived 972351760181243905
+2018-03-19 18:10:34,770 INFO found reply: 972342931074908161
+2018-03-19 18:10:34,771 INFO archived 972342931074908161
+2018-03-19 18:10:34,771 INFO found reply: 972335569480179713
+2018-03-19 18:10:34,771 INFO archived 972335569480179713
+2018-03-19 18:10:34,771 INFO found reply: 972335167330123776
+2018-03-19 18:10:34,771 INFO archived 972335167330123776
+2018-03-19 18:10:34,771 INFO found reply: 972331809856880640
+2018-03-19 18:10:34,771 INFO archived 972331809856880640
+2018-03-19 18:10:34,771 INFO found reply: 972327398787215360
+2018-03-19 18:10:34,771 INFO archived 972327398787215360
+2018-03-19 18:10:34,771 INFO found reply: 972325000303620096
+2018-03-19 18:10:34,772 INFO archived 972325000303620096
+2018-03-19 18:10:34,772 INFO found reply: 972324959996452866
+2018-03-19 18:10:34,772 INFO archived 972324959996452866
+2018-03-19 18:10:34,772 INFO found reply: 972321948398247936
+2018-03-19 18:10:34,772 INFO archived 972321948398247936
+2018-03-19 18:10:34,772 INFO found reply: 972320135473119232
+2018-03-19 18:10:34,772 INFO archived 972320135473119232
+2018-03-19 18:10:34,772 INFO found reply: 972316494687285249
+2018-03-19 18:10:34,772 INFO archived 972316494687285249
+2018-03-19 18:10:34,772 INFO found reply: 972310436082143233
+2018-03-19 18:10:34,773 INFO archived 972310436082143233
+2018-03-19 18:10:34,773 INFO found reply: 972307278752894976
+2018-03-19 18:10:34,773 INFO archived 972307278752894976
+2018-03-19 18:10:34,773 INFO found reply: 972301717332201472
+2018-03-19 18:10:34,773 INFO archived 972301717332201472
+2018-03-19 18:10:34,773 INFO found reply: 972298829004353536
+2018-03-19 18:10:34,773 INFO archived 972298829004353536
+2018-03-19 18:10:34,773 INFO found reply: 972298626817982464
+2018-03-19 18:10:34,773 INFO archived 972298626817982464
+2018-03-19 18:10:34,773 INFO found reply: 972298150261108736
+2018-03-19 18:10:34,773 INFO archived 972298150261108736
+2018-03-19 18:10:34,774 INFO found reply: 972294207439364096
+2018-03-19 18:10:34,774 INFO archived 972294207439364096
+2018-03-19 18:10:34,774 INFO found reply: 972290664623833088
+2018-03-19 18:10:34,774 INFO archived 972290664623833088
+2018-03-19 18:10:34,774 INFO found reply: 972289548427366400
+2018-03-19 18:10:34,774 INFO archived 972289548427366400
+2018-03-19 18:10:34,774 INFO found reply: 972284357187575808
+2018-03-19 18:10:34,774 INFO archived 972284357187575808
+2018-03-19 18:10:34,774 INFO found reply: 972284051636682753
+2018-03-19 18:10:34,774 INFO archived 972284051636682753
+2018-03-19 18:10:34,774 INFO found reply: 972283507505614849
+2018-03-19 18:10:34,774 INFO archived 972283507505614849
+2018-03-19 18:10:34,775 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:35,243 INFO found reply: 972280344714989568
+2018-03-19 18:10:35,244 INFO archived 972280344714989568
+2018-03-19 18:10:35,244 INFO found reply: 972278044231643136
+2018-03-19 18:10:35,244 INFO archived 972278044231643136
+2018-03-19 18:10:35,244 INFO found reply: 972277895430311936
+2018-03-19 18:10:35,244 INFO archived 972277895430311936
+2018-03-19 18:10:35,244 INFO found reply: 972277719877804033
+2018-03-19 18:10:35,244 INFO archived 972277719877804033
+2018-03-19 18:10:35,244 INFO found reply: 972276412999544832
+2018-03-19 18:10:35,245 INFO archived 972276412999544832
+2018-03-19 18:10:35,245 INFO found reply: 972276099622285313
+2018-03-19 18:10:35,245 INFO archived 972276099622285313
+2018-03-19 18:10:35,245 INFO found reply: 972274956586373125
+2018-03-19 18:10:35,245 INFO archived 972274956586373125
+2018-03-19 18:10:35,245 INFO found reply: 972274593753833472
+2018-03-19 18:10:35,245 INFO archived 972274593753833472
+2018-03-19 18:10:35,245 INFO found reply: 972273653466329089
+2018-03-19 18:10:35,245 INFO archived 972273653466329089
+2018-03-19 18:10:35,245 INFO found reply: 972266536261038080
+2018-03-19 18:10:35,245 INFO archived 972266536261038080
+2018-03-19 18:10:35,246 INFO found reply: 972264167158755329
+2018-03-19 18:10:35,246 INFO archived 972264167158755329
+2018-03-19 18:10:35,246 INFO found reply: 972261389640323074
+2018-03-19 18:10:35,246 INFO archived 972261389640323074
+2018-03-19 18:10:35,246 INFO found reply: 972259638669398016
+2018-03-19 18:10:35,246 INFO archived 972259638669398016
+2018-03-19 18:10:35,246 INFO found reply: 972259466082160640
+2018-03-19 18:10:35,246 INFO archived 972259466082160640
+2018-03-19 18:10:35,246 INFO found reply: 972259232790835200
+2018-03-19 18:10:35,246 INFO archived 972259232790835200
+2018-03-19 18:10:35,247 INFO found reply: 972258752937291778
+2018-03-19 18:10:35,247 INFO archived 972258752937291778
+2018-03-19 18:10:35,247 INFO found reply: 972258356009123840
+2018-03-19 18:10:35,247 INFO archived 972258356009123840
+2018-03-19 18:10:35,247 INFO found reply: 972255548820328453
+2018-03-19 18:10:35,247 INFO archived 972255548820328453
+2018-03-19 18:10:35,247 INFO found reply: 972255423704088577
+2018-03-19 18:10:35,247 INFO archived 972255423704088577
+2018-03-19 18:10:35,247 INFO found reply: 972255203801083905
+2018-03-19 18:10:35,247 INFO archived 972255203801083905
+2018-03-19 18:10:35,248 INFO found reply: 972253699723726850
+2018-03-19 18:10:35,248 INFO archived 972253699723726850
+2018-03-19 18:10:35,248 INFO found reply: 972251614038888448
+2018-03-19 18:10:35,248 INFO archived 972251614038888448
+2018-03-19 18:10:35,248 INFO found reply: 972250959173824512
+2018-03-19 18:10:35,248 INFO archived 972250959173824512
+2018-03-19 18:10:35,248 INFO found reply: 972249359273246720
+2018-03-19 18:10:35,248 INFO archived 972249359273246720
+2018-03-19 18:10:35,248 INFO found reply: 972248245307977728
+2018-03-19 18:10:35,248 INFO archived 972248245307977728
+2018-03-19 18:10:35,248 INFO found reply: 972245930190635008
+2018-03-19 18:10:35,249 INFO archived 972245930190635008
+2018-03-19 18:10:35,249 INFO found reply: 972243387008024578
+2018-03-19 18:10:35,249 INFO archived 972243387008024578
+2018-03-19 18:10:35,249 INFO found reply: 972242894810763264
+2018-03-19 18:10:35,249 INFO archived 972242894810763264
+2018-03-19 18:10:35,249 INFO found reply: 972241051032354816
+2018-03-19 18:10:35,249 INFO archived 972241051032354816
+2018-03-19 18:10:35,249 INFO found reply: 972240728125517824
+2018-03-19 18:10:35,249 INFO archived 972240728125517824
+2018-03-19 18:10:35,249 INFO found reply: 972237550432681984
+2018-03-19 18:10:35,249 INFO archived 972237550432681984
+2018-03-19 18:10:35,250 INFO found reply: 972236556273504256
+2018-03-19 18:10:35,250 INFO archived 972236556273504256
+2018-03-19 18:10:35,250 INFO found reply: 972236348890509312
+2018-03-19 18:10:35,250 INFO archived 972236348890509312
+2018-03-19 18:10:35,250 INFO found reply: 972235674119299074
+2018-03-19 18:10:35,250 INFO archived 972235674119299074
+2018-03-19 18:10:35,250 INFO found reply: 972233522244128769
+2018-03-19 18:10:35,250 INFO archived 972233522244128769
+2018-03-19 18:10:35,250 INFO found reply: 972231366459863040
+2018-03-19 18:10:35,250 INFO archived 972231366459863040
+2018-03-19 18:10:35,251 INFO found reply: 972231264341254146
+2018-03-19 18:10:35,251 INFO archived 972231264341254146
+2018-03-19 18:10:35,251 INFO found reply: 972229960411725824
+2018-03-19 18:10:35,251 INFO archived 972229960411725824
+2018-03-19 18:10:35,251 INFO found reply: 972229657817858048
+2018-03-19 18:10:35,251 INFO archived 972229657817858048
+2018-03-19 18:10:35,251 INFO found reply: 972228972569391104
+2018-03-19 18:10:35,251 INFO archived 972228972569391104
+2018-03-19 18:10:35,251 INFO found reply: 972228681560096770
+2018-03-19 18:10:35,251 INFO archived 972228681560096770
+2018-03-19 18:10:35,252 INFO found reply: 972228294497226753
+2018-03-19 18:10:35,252 INFO archived 972228294497226753
+2018-03-19 18:10:35,252 INFO found reply: 972228182089785344
+2018-03-19 18:10:35,252 INFO archived 972228182089785344
+2018-03-19 18:10:35,252 INFO found reply: 972226743254659072
+2018-03-19 18:10:35,252 INFO archived 972226743254659072
+2018-03-19 18:10:35,252 INFO found reply: 972226674329837569
+2018-03-19 18:10:35,252 INFO archived 972226674329837569
+2018-03-19 18:10:35,252 INFO found reply: 972226658286497792
+2018-03-19 18:10:35,252 INFO archived 972226658286497792
+2018-03-19 18:10:35,252 INFO found reply: 972226201879236609
+2018-03-19 18:10:35,253 INFO archived 972226201879236609
+2018-03-19 18:10:35,253 INFO found reply: 972225684692258817
+2018-03-19 18:10:35,253 INFO archived 972225684692258817
+2018-03-19 18:10:35,253 INFO found reply: 972225344131534849
+2018-03-19 18:10:35,253 INFO archived 972225344131534849
+2018-03-19 18:10:35,253 INFO found reply: 972224797412294657
+2018-03-19 18:10:35,253 INFO archived 972224797412294657
+2018-03-19 18:10:35,253 INFO found reply: 972222654563454976
+2018-03-19 18:10:35,253 INFO archived 972222654563454976
+2018-03-19 18:10:35,253 INFO found reply: 972222518655414272
+2018-03-19 18:10:35,253 INFO archived 972222518655414272
+2018-03-19 18:10:35,253 INFO found reply: 972222318973018113
+2018-03-19 18:10:35,254 INFO archived 972222318973018113
+2018-03-19 18:10:35,254 INFO found reply: 972219741858344961
+2018-03-19 18:10:35,254 INFO archived 972219741858344961
+2018-03-19 18:10:35,254 INFO found reply: 972218592879153154
+2018-03-19 18:10:35,254 INFO archived 972218592879153154
+2018-03-19 18:10:35,254 INFO found reply: 972217932221526017
+2018-03-19 18:10:35,254 INFO archived 972217932221526017
+2018-03-19 18:10:35,254 INFO found reply: 972217863640682497
+2018-03-19 18:10:35,254 INFO archived 972217863640682497
+2018-03-19 18:10:35,254 INFO found reply: 972217335011356672
+2018-03-19 18:10:35,254 INFO archived 972217335011356672
+2018-03-19 18:10:35,255 INFO found reply: 972216820072501248
+2018-03-19 18:10:35,255 INFO archived 972216820072501248
+2018-03-19 18:10:35,255 INFO found reply: 972214659104362498
+2018-03-19 18:10:35,255 INFO archived 972214659104362498
+2018-03-19 18:10:35,255 INFO found reply: 972213955664936960
+2018-03-19 18:10:35,255 INFO archived 972213955664936960
+2018-03-19 18:10:35,255 INFO found reply: 972213075762974720
+2018-03-19 18:10:35,255 INFO archived 972213075762974720
+2018-03-19 18:10:35,255 INFO found reply: 972212023487582208
+2018-03-19 18:10:35,255 INFO archived 972212023487582208
+2018-03-19 18:10:35,255 INFO found reply: 972211053747609600
+2018-03-19 18:10:35,256 INFO archived 972211053747609600
+2018-03-19 18:10:35,256 INFO found reply: 972211046722125824
+2018-03-19 18:10:35,256 INFO archived 972211046722125824
+2018-03-19 18:10:35,256 INFO found reply: 972210922914832384
+2018-03-19 18:10:35,256 INFO archived 972210922914832384
+2018-03-19 18:10:35,256 INFO found reply: 972209854139060224
+2018-03-19 18:10:35,256 INFO archived 972209854139060224
+2018-03-19 18:10:35,256 INFO found reply: 972209556481691648
+2018-03-19 18:10:35,256 INFO archived 972209556481691648
+2018-03-19 18:10:35,256 INFO found reply: 972208994101137408
+2018-03-19 18:10:35,257 INFO archived 972208994101137408
+2018-03-19 18:10:35,257 INFO found reply: 972207921965780992
+2018-03-19 18:10:35,257 INFO archived 972207921965780992
+2018-03-19 18:10:35,257 INFO found reply: 972207863065137152
+2018-03-19 18:10:35,257 INFO archived 972207863065137152
+2018-03-19 18:10:35,257 INFO found reply: 972207776242991106
+2018-03-19 18:10:35,257 INFO archived 972207776242991106
+2018-03-19 18:10:35,257 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:35,343 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:35,343 INFO prune=()
+2018-03-19 18:10:35,907 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:35,907 INFO hydrating ['968895132539019266']
+2018-03-19 18:10:35,907 INFO creating http session
+2018-03-19 18:10:35,908 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:36,233 INFO archived 968895132539019266
+2018-03-19 18:10:36,234 INFO looking for replies to: 968895132539019266
+2018-03-19 18:10:36,234 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:36,588 INFO found reply: 975841683127570446
+2018-03-19 18:10:36,589 INFO archived 975841683127570446
+2018-03-19 18:10:36,589 INFO found reply: 975516550483423232
+2018-03-19 18:10:36,589 INFO archived 975516550483423232
+2018-03-19 18:10:36,589 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:37,040 INFO found reply: 975059358936698880
+2018-03-19 18:10:37,041 INFO archived 975059358936698880
+2018-03-19 18:10:37,041 INFO found reply: 975052968830611457
+2018-03-19 18:10:37,041 INFO archived 975052968830611457
+2018-03-19 18:10:37,041 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:37,269 INFO found reply: 974697740717428737
+2018-03-19 18:10:37,269 INFO archived 974697740717428737
+2018-03-19 18:10:37,270 INFO found reply: 974287550696378369
+2018-03-19 18:10:37,270 INFO archived 974287550696378369
+2018-03-19 18:10:37,270 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:37,737 INFO found reply: 974032960210038789
+2018-03-19 18:10:37,737 INFO archived 974032960210038789
+2018-03-19 18:10:37,737 INFO found reply: 973974615402930176
+2018-03-19 18:10:37,737 INFO archived 973974615402930176
+2018-03-19 18:10:37,737 INFO found reply: 973929429763313664
+2018-03-19 18:10:37,737 INFO archived 973929429763313664
+2018-03-19 18:10:37,737 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:38,216 INFO found reply: 973419718001311744
+2018-03-19 18:10:38,216 INFO archived 973419718001311744
+2018-03-19 18:10:38,216 INFO found reply: 972953518108762112
+2018-03-19 18:10:38,217 INFO archived 972953518108762112
+2018-03-19 18:10:38,217 INFO found reply: 972922375888130048
+2018-03-19 18:10:38,217 INFO archived 972922375888130048
+2018-03-19 18:10:38,217 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:38,625 INFO found reply: 972840093311320070
+2018-03-19 18:10:38,625 INFO archived 972840093311320070
+2018-03-19 18:10:38,626 INFO found reply: 972795465916919808
+2018-03-19 18:10:38,626 INFO archived 972795465916919808
+2018-03-19 18:10:38,626 INFO found reply: 972694786384777216
+2018-03-19 18:10:38,626 INFO archived 972694786384777216
+2018-03-19 18:10:38,626 INFO found reply: 972672255242125312
+2018-03-19 18:10:38,626 INFO archived 972672255242125312
+2018-03-19 18:10:38,626 INFO found reply: 972664265067892736
+2018-03-19 18:10:38,626 INFO archived 972664265067892736
+2018-03-19 18:10:38,626 INFO found reply: 972541489573179392
+2018-03-19 18:10:38,627 INFO archived 972541489573179392
+2018-03-19 18:10:38,627 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:38,988 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:39,307 INFO found reply: 972273031513952256
+2018-03-19 18:10:39,308 INFO archived 972273031513952256
+2018-03-19 18:10:39,308 INFO found reply: 972264988579680258
+2018-03-19 18:10:39,308 INFO archived 972264988579680258
+2018-03-19 18:10:39,308 INFO found reply: 972236881567109126
+2018-03-19 18:10:39,308 INFO archived 972236881567109126
+2018-03-19 18:10:39,308 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:39,382 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:39,382 INFO prune=()
+2018-03-19 18:10:39,993 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:39,994 INFO hydrating ['963845665641189382']
+2018-03-19 18:10:39,994 INFO creating http session
+2018-03-19 18:10:39,995 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:40,269 INFO archived 963845665641189382
+2018-03-19 18:10:40,269 INFO looking for replies to: 963845665641189382
+2018-03-19 18:10:40,269 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:40,829 INFO found reply: 975504988112867328
+2018-03-19 18:10:40,829 INFO archived 975504988112867328
+2018-03-19 18:10:40,830 INFO found reply: 975442310849810433
+2018-03-19 18:10:40,830 INFO archived 975442310849810433
+2018-03-19 18:10:40,830 INFO found reply: 975401453719310336
+2018-03-19 18:10:40,830 INFO archived 975401453719310336
+2018-03-19 18:10:40,830 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:41,342 INFO found reply: 975186181800517632
+2018-03-19 18:10:41,342 INFO archived 975186181800517632
+2018-03-19 18:10:41,342 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:41,800 INFO found reply: 974882752494522369
+2018-03-19 18:10:41,800 INFO archived 974882752494522369
+2018-03-19 18:10:41,800 INFO found reply: 974643990288130048
+2018-03-19 18:10:41,801 INFO archived 974643990288130048
+2018-03-19 18:10:41,801 INFO found reply: 974498790404214785
+2018-03-19 18:10:41,801 INFO archived 974498790404214785
+2018-03-19 18:10:41,801 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:42,211 INFO found reply: 974076864745607168
+2018-03-19 18:10:42,211 INFO archived 974076864745607168
+2018-03-19 18:10:42,211 INFO found reply: 973422254359945216
+2018-03-19 18:10:42,211 INFO archived 973422254359945216
+2018-03-19 18:10:42,211 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:42,626 INFO found reply: 973146102034771968
+2018-03-19 18:10:42,626 INFO archived 973146102034771968
+2018-03-19 18:10:42,626 INFO found reply: 972917826511130624
+2018-03-19 18:10:42,626 INFO archived 972917826511130624
+2018-03-19 18:10:42,626 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:43,031 INFO found reply: 972837152072654850
+2018-03-19 18:10:43,031 INFO archived 972837152072654850
+2018-03-19 18:10:43,031 INFO found reply: 972558756738424833
+2018-03-19 18:10:43,032 INFO archived 972558756738424833
+2018-03-19 18:10:43,032 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:43,490 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:43,747 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:43,826 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '963845665641189382', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:43,827 INFO prune=()
+2018-03-19 18:10:44,358 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:44,359 INFO hydrating ['958581099357179909']
+2018-03-19 18:10:44,360 INFO creating http session
+2018-03-19 18:10:44,360 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:44,649 INFO archived 958581099357179909
+2018-03-19 18:10:44,649 INFO looking for replies to: 958581099357179909
+2018-03-19 18:10:44,650 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:45,043 INFO found reply: 975357943750197248
+2018-03-19 18:10:45,043 INFO archived 975357943750197248
+2018-03-19 18:10:45,043 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:45,495 INFO found reply: 975143880768147457
+2018-03-19 18:10:45,495 INFO archived 975143880768147457
+2018-03-19 18:10:45,495 INFO found reply: 975077917632974848
+2018-03-19 18:10:45,496 INFO archived 975077917632974848
+2018-03-19 18:10:45,496 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:45,897 INFO found reply: 974697978794520576
+2018-03-19 18:10:45,897 INFO archived 974697978794520576
+2018-03-19 18:10:45,897 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:46,290 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:46,732 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:47,124 INFO found reply: 972558090297118720
+2018-03-19 18:10:47,125 INFO archived 972558090297118720
+2018-03-19 18:10:47,125 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:47,636 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:48,043 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:48,119 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '958581099357179909', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:48,119 INFO prune=()
+2018-03-19 18:10:48,657 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:48,657 INFO hydrating ['955316475388203010']
+2018-03-19 18:10:48,658 INFO creating http session
+2018-03-19 18:10:48,658 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '955316475388203010', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:48,950 INFO archived 955316475388203010
+2018-03-19 18:10:48,950 INFO looking for replies to: 955316475388203010
+2018-03-19 18:10:48,950 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:49,431 INFO found reply: 975846078145740800
+2018-03-19 18:10:49,431 INFO archived 975846078145740800
+2018-03-19 18:10:49,432 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:49,945 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:50,399 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:50,811 INFO found reply: 973765508876197888
+2018-03-19 18:10:50,811 INFO archived 973765508876197888
+2018-03-19 18:10:50,811 INFO found reply: 973761246674767874
+2018-03-19 18:10:50,811 INFO archived 973761246674767874
+2018-03-19 18:10:50,812 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:51,020 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:51,425 INFO found reply: 972758326575542273
+2018-03-19 18:10:51,425 INFO archived 972758326575542273
+2018-03-19 18:10:51,425 INFO found reply: 972700096654725120
+2018-03-19 18:10:51,425 INFO archived 972700096654725120
+2018-03-19 18:10:51,425 INFO found reply: 972698668137701377
+2018-03-19 18:10:51,425 INFO archived 972698668137701377
+2018-03-19 18:10:51,425 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:51,733 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:52,009 INFO found reply: 972229700075466752
+2018-03-19 18:10:52,009 INFO archived 972229700075466752
+2018-03-19 18:10:52,009 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:52,088 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '955316475388203010', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:52,088 INFO prune=()
+2018-03-19 18:10:52,618 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:52,619 INFO hydrating ['954064649561010177']
+2018-03-19 18:10:52,619 INFO creating http session
+2018-03-19 18:10:52,619 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '954064649561010177', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:52,892 INFO archived 954064649561010177
+2018-03-19 18:10:52,892 INFO looking for replies to: 954064649561010177
+2018-03-19 18:10:52,893 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:53,315 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:53,989 INFO found reply: 975078166443319296
+2018-03-19 18:10:53,990 INFO archived 975078166443319296
+2018-03-19 18:10:53,990 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:54,803 INFO found reply: 974698135175008256
+2018-03-19 18:10:54,803 INFO archived 974698135175008256
+2018-03-19 18:10:54,803 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:55,215 INFO found reply: 973461144114315269
+2018-03-19 18:10:55,217 INFO archived 973461144114315269
+2018-03-19 18:10:55,217 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:55,592 INFO found reply: 973221660055744512
+2018-03-19 18:10:55,592 INFO archived 973221660055744512
+2018-03-19 18:10:55,593 INFO found reply: 972953945978097665
+2018-03-19 18:10:55,593 INFO archived 972953945978097665
+2018-03-19 18:10:55,593 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:10:56,238 INFO found reply: 972695012751429639
+2018-03-19 18:10:56,238 INFO archived 972695012751429639
+2018-03-19 18:10:56,238 INFO found reply: 972636866133491712
+2018-03-19 18:10:56,238 INFO archived 972636866133491712
+2018-03-19 18:10:56,238 INFO found reply: 972558271713300481
+2018-03-19 18:10:56,239 INFO archived 972558271713300481
+2018-03-19 18:10:56,239 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:10:56,470 INFO found reply: 972343685768761344
+2018-03-19 18:10:56,471 INFO archived 972343685768761344
+2018-03-19 18:10:56,471 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:10:56,814 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:10:56,901 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '954064649561010177', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:10:56,901 INFO prune=()
+2018-03-19 18:10:57,465 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:10:57,465 INFO hydrating ['952919377917202432']
+2018-03-19 18:10:57,466 INFO creating http session
+2018-03-19 18:10:57,466 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '952919377917202432', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:57,746 INFO archived 952919377917202432
+2018-03-19 18:10:57,746 INFO looking for replies to: 952919377917202432
+2018-03-19 18:10:57,747 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended'}}
+2018-03-19 18:10:58,145 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:10:58,597 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:10:58,932 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:10:59,263 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:10:59,720 INFO found reply: 972954322219749376
+2018-03-19 18:10:59,721 INFO archived 972954322219749376
+2018-03-19 18:10:59,721 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:00,026 INFO found reply: 972558451527254022
+2018-03-19 18:11:00,026 INFO archived 972558451527254022
+2018-03-19 18:11:00,026 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:00,744 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:01,255 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:01,330 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952919377917202432', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:01,331 INFO prune=()
+2018-03-19 18:11:01,923 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:01,924 INFO hydrating ['952263383050571777']
+2018-03-19 18:11:01,925 INFO creating http session
+2018-03-19 18:11:01,925 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '952263383050571777', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:02,207 INFO archived 952263383050571777
+2018-03-19 18:11:02,207 INFO looking for replies to: 952263383050571777
+2018-03-19 18:11:02,208 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:02,798 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:03,188 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:03,507 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:04,071 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:04,532 INFO found reply: 972955439800504321
+2018-03-19 18:11:04,532 INFO archived 972955439800504321
+2018-03-19 18:11:04,533 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:04,975 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:05,253 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:05,658 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:05,733 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '952263383050571777', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:05,734 INFO prune=()
+2018-03-19 18:11:06,271 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:06,272 INFO hydrating ['951186472815783937']
+2018-03-19 18:11:06,272 INFO creating http session
+2018-03-19 18:11:06,273 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:06,564 INFO archived 951186472815783937
+2018-03-19 18:11:06,564 INFO looking for replies to: 951186472815783937
+2018-03-19 18:11:06,564 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:07,044 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:07,437 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:07,908 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:08,322 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:08,731 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:09,079 INFO found reply: 972698928767479809
+2018-03-19 18:11:09,080 INFO archived 972698928767479809
+2018-03-19 18:11:09,080 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:09,295 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:09,682 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:09,770 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '951186472815783937', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:09,770 INFO prune=()
+2018-03-19 18:11:10,303 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:10,304 INFO hydrating ['949063950687244288']
+2018-03-19 18:11:10,304 INFO creating http session
+2018-03-19 18:11:10,305 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '949063950687244288', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:10,620 INFO archived 949063950687244288
+2018-03-19 18:11:10,620 INFO looking for replies to: 949063950687244288
+2018-03-19 18:11:10,620 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:10,993 INFO found reply: 975509947701227520
+2018-03-19 18:11:10,993 INFO archived 975509947701227520
+2018-03-19 18:11:10,993 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:11,443 INFO found reply: 975078347129663488
+2018-03-19 18:11:11,443 INFO archived 975078347129663488
+2018-03-19 18:11:11,443 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:11,693 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:12,264 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:12,695 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:13,142 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:13,484 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:13,953 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:14,030 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '949063950687244288', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:14,030 INFO prune=()
+2018-03-19 18:11:14,579 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:14,579 INFO hydrating ['945768492195774464']
+2018-03-19 18:11:14,580 INFO creating http session
+2018-03-19 18:11:14,580 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '945768492195774464', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:14,855 INFO archived 945768492195774464
+2018-03-19 18:11:14,855 INFO looking for replies to: 945768492195774464
+2018-03-19 18:11:14,855 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:16,465 INFO found reply: 975401881613881344
+2018-03-19 18:11:16,466 INFO archived 975401881613881344
+2018-03-19 18:11:16,466 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:17,257 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:17,742 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:18,152 INFO found reply: 973929563960107008
+2018-03-19 18:11:18,152 INFO archived 973929563960107008
+2018-03-19 18:11:18,152 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:18,582 INFO found reply: 972955960275865600
+2018-03-19 18:11:18,583 INFO archived 972955960275865600
+2018-03-19 18:11:18,583 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:19,013 INFO found reply: 972699009373687808
+2018-03-19 18:11:19,014 INFO archived 972699009373687808
+2018-03-19 18:11:19,014 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:19,513 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:19,886 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:19,971 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '945768492195774464', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:19,971 INFO prune=()
+2018-03-19 18:11:20,529 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:20,530 INFO hydrating ['944276478367281153']
+2018-03-19 18:11:20,530 INFO creating http session
+2018-03-19 18:11:20,531 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '944276478367281153', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:20,809 INFO archived 944276478367281153
+2018-03-19 18:11:20,809 INFO looking for replies to: 944276478367281153
+2018-03-19 18:11:20,810 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:21,893 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:22,306 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:22,759 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:23,097 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:23,445 INFO found reply: 972957075008643072
+2018-03-19 18:11:23,445 INFO archived 972957075008643072
+2018-03-19 18:11:23,445 INFO found reply: 972948348608155650
+2018-03-19 18:11:23,446 INFO archived 972948348608155650
+2018-03-19 18:11:23,446 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:23,887 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:24,300 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:24,625 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:24,708 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '944276478367281153', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:24,709 INFO prune=()
+2018-03-19 18:11:25,279 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:25,280 INFO hydrating ['939933947496157185']
+2018-03-19 18:11:25,280 INFO creating http session
+2018-03-19 18:11:25,281 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '939933947496157185', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:25,546 INFO archived 939933947496157185
+2018-03-19 18:11:25,547 INFO looking for replies to: 939933947496157185
+2018-03-19 18:11:25,547 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:26,088 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:26,602 INFO found reply: 975105371294584832
+2018-03-19 18:11:26,602 INFO archived 975105371294584832
+2018-03-19 18:11:26,603 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:26,803 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:27,265 INFO found reply: 974222510286954496
+2018-03-19 18:11:27,265 INFO archived 974222510286954496
+2018-03-19 18:11:27,265 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:27,573 INFO found reply: 972973362384441344
+2018-03-19 18:11:27,574 INFO archived 972973362384441344
+2018-03-19 18:11:27,574 INFO found reply: 972968488728965120
+2018-03-19 18:11:27,574 INFO archived 972968488728965120
+2018-03-19 18:11:27,574 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:27,982 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:28,276 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:28,696 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:28,773 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939933947496157185', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:28,774 INFO prune=()
+2018-03-19 18:11:29,323 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:29,323 INFO hydrating ['939221170255261696']
+2018-03-19 18:11:29,324 INFO creating http session
+2018-03-19 18:11:29,324 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '939221170255261696', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:29,595 INFO archived 939221170255261696
+2018-03-19 18:11:29,596 INFO looking for replies to: 939221170255261696
+2018-03-19 18:11:29,596 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:30,062 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:30,495 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:30,755 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:31,260 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:31,566 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:32,051 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:32,450 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:32,944 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:33,022 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '939221170255261696', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:33,022 INFO prune=()
+2018-03-19 18:11:33,568 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:33,569 INFO hydrating ['934491918637129728']
+2018-03-19 18:11:33,569 INFO creating http session
+2018-03-19 18:11:33,569 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '934491918637129728', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:33,913 INFO archived 934491918637129728
+2018-03-19 18:11:33,914 INFO looking for replies to: 934491918637129728
+2018-03-19 18:11:33,914 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:34,470 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:35,002 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:35,458 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:35,647 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:36,072 INFO found reply: 972971131392200705
+2018-03-19 18:11:36,072 INFO archived 972971131392200705
+2018-03-19 18:11:36,072 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:36,479 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:36,787 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:37,131 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:37,222 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '934491918637129728', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:37,222 INFO prune=()
+2018-03-19 18:11:37,796 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:37,796 INFO hydrating ['932483962223636480']
+2018-03-19 18:11:37,797 INFO creating http session
+2018-03-19 18:11:37,797 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '932483962223636480', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:38,107 INFO archived 932483962223636480
+2018-03-19 18:11:38,108 INFO looking for replies to: 932483962223636480
+2018-03-19 18:11:38,108 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:38,582 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:39,198 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:39,623 INFO found reply: 974817911234879489
+2018-03-19 18:11:39,623 INFO archived 974817911234879489
+2018-03-19 18:11:39,623 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:40,168 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:40,673 INFO found reply: 972972156442341377
+2018-03-19 18:11:40,674 INFO archived 972972156442341377
+2018-03-19 18:11:40,674 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:40,920 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:41,397 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:41,671 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:41,746 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '932483962223636480', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:41,746 INFO prune=()
+2018-03-19 18:11:42,303 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:42,303 INFO hydrating ['921423644257144834']
+2018-03-19 18:11:42,303 INFO creating http session
+2018-03-19 18:11:42,304 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '921423644257144834', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:42,593 INFO archived 921423644257144834
+2018-03-19 18:11:42,593 INFO looking for replies to: 921423644257144834
+2018-03-19 18:11:42,593 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:43,018 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:43,399 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:43,751 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:44,059 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:44,470 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:44,878 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:45,244 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:45,577 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:45,657 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '921423644257144834', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:45,658 INFO prune=()
+2018-03-19 18:11:46,190 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:46,191 INFO hydrating ['920676681446313984']
+2018-03-19 18:11:46,191 INFO creating http session
+2018-03-19 18:11:46,191 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '920676681446313984', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:46,496 INFO archived 920676681446313984
+2018-03-19 18:11:46,496 INFO looking for replies to: 920676681446313984
+2018-03-19 18:11:46,497 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:46,859 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:47,126 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:47,512 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:48,001 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:48,348 INFO found reply: 972966989063966720
+2018-03-19 18:11:48,348 INFO archived 972966989063966720
+2018-03-19 18:11:48,348 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:48,823 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:49,179 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:49,658 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:49,737 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '920676681446313984', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:49,737 INFO prune=()
+2018-03-19 18:11:50,261 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:50,262 INFO hydrating ['919984095081451520']
+2018-03-19 18:11:50,262 INFO creating http session
+2018-03-19 18:11:50,263 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '919984095081451520', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:50,552 INFO archived 919984095081451520
+2018-03-19 18:11:50,552 INFO looking for replies to: 919984095081451520
+2018-03-19 18:11:50,552 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:50,985 INFO found reply: 975404813738536965
+2018-03-19 18:11:50,986 INFO archived 975404813738536965
+2018-03-19 18:11:50,986 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:51,384 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:51,726 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:52,031 INFO found reply: 973766488103505920
+2018-03-19 18:11:52,031 INFO archived 973766488103505920
+2018-03-19 18:11:52,031 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:52,354 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:52,713 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:53,173 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:53,584 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:53,685 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919984095081451520', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:53,685 INFO prune=()
+2018-03-19 18:11:54,218 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:11:54,219 INFO hydrating ['919922734280343552']
+2018-03-19 18:11:54,219 INFO creating http session
+2018-03-19 18:11:54,220 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '919922734280343552', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:54,499 INFO archived 919922734280343552
+2018-03-19 18:11:54,499 INFO looking for replies to: 919922734280343552
+2018-03-19 18:11:54,499 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended'}}
+2018-03-19 18:11:54,966 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '975306834188947455'}}
+2018-03-19 18:11:55,441 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '974886376364654591'}}
+2018-03-19 18:11:55,752 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '974271145569644548'}}
+2018-03-19 18:11:56,173 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '973420439694336000'}}
+2018-03-19 18:11:56,552 INFO found reply: 972973911087427585
+2018-03-19 18:11:56,553 INFO archived 972973911087427585
+2018-03-19 18:11:56,553 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972879743342338047'}}
+2018-03-19 18:11:56,949 INFO found reply: 972678086062944256
+2018-03-19 18:11:56,949 INFO archived 972678086062944256
+2018-03-19 18:11:56,949 INFO found reply: 972636485760401408
+2018-03-19 18:11:56,949 INFO archived 972636485760401408
+2018-03-19 18:11:56,949 INFO found reply: 972530214151577600
+2018-03-19 18:11:56,949 INFO archived 972530214151577600
+2018-03-19 18:11:56,949 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972530214151577599'}}
+2018-03-19 18:11:57,524 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972281660216573952'}}
+2018-03-19 18:11:58,088 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}}
+2018-03-19 18:11:58,164 INFO no new tweets matching {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '919922734280343552', 'tweet_mode': 'extended', 'max_id': '972207776242991105'}
+2018-03-19 18:11:58,164 INFO prune=()
+2018-03-19 18:16:40,401 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:16:40,402 INFO hydrating ['972194214841864194']
+2018-03-19 18:16:40,402 INFO creating http session
+2018-03-19 18:16:40,402 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:16:40,671 INFO archived 972194214841864194
+2018-03-19 18:16:40,671 INFO looking for replies to: 972194214841864194
+2018-03-19 18:16:40,671 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:16:40,741 WARNING rate limit exceeded: sleeping 540.2589409351349 secs
+2018-03-19 18:17:00,445 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:17:00,445 INFO hydrating ['968895132539019266']
+2018-03-19 18:17:00,446 INFO creating http session
+2018-03-19 18:17:00,446 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:17:21,836 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:17:21,837 INFO hydrating ['972194214841864194']
+2018-03-19 18:17:21,837 INFO creating http session
+2018-03-19 18:17:21,838 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:17:22,159 INFO archived 972194214841864194
+2018-03-19 18:17:22,159 INFO looking for replies to: 972194214841864194
+2018-03-19 18:17:22,159 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:17:22,230 WARNING rate limit exceeded: sleeping 498.76923298835754 secs
+2018-03-19 18:17:39,109 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:17:39,110 INFO hydrating ['968895132539019266']
+2018-03-19 18:17:39,111 INFO creating http session
+2018-03-19 18:17:39,111 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:17:39,385 INFO archived 968895132539019266
+2018-03-19 18:17:39,385 INFO looking for replies to: 968895132539019266
+2018-03-19 18:17:39,385 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:17:39,450 WARNING rate limit exceeded: sleeping 481.5494661331177 secs
+2018-03-19 18:18:00,715 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:18:00,716 INFO hydrating ['972194214841864194']
+2018-03-19 18:18:00,716 INFO creating http session
+2018-03-19 18:18:00,716 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:00,984 INFO archived 972194214841864194
+2018-03-19 18:18:00,984 INFO looking for replies to: 972194214841864194
+2018-03-19 18:18:00,984 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:01,051 WARNING rate limit exceeded: sleeping 459.9489920139313 secs
+2018-03-19 18:18:05,729 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:18:05,730 INFO hydrating ['968895132539019266']
+2018-03-19 18:18:05,731 INFO creating http session
+2018-03-19 18:18:05,731 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:06,008 INFO archived 968895132539019266
+2018-03-19 18:18:06,008 INFO looking for replies to: 968895132539019266
+2018-03-19 18:18:06,008 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:06,078 WARNING rate limit exceeded: sleeping 454.921098947525 secs
+2018-03-19 18:18:15,174 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:18:15,174 INFO hydrating ['972194214841864194']
+2018-03-19 18:18:15,175 INFO creating http session
+2018-03-19 18:18:15,175 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:15,448 INFO archived 972194214841864194
+2018-03-19 18:18:15,448 INFO looking for replies to: 972194214841864194
+2018-03-19 18:18:15,448 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '972194214841864194', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:15,514 WARNING rate limit exceeded: sleeping 445.4858810901642 secs
+2018-03-19 18:18:25,939 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:18:25,940 INFO hydrating ['968895132539019266']
+2018-03-19 18:18:25,941 INFO creating http session
+2018-03-19 18:18:25,941 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:26,223 INFO archived 968895132539019266
+2018-03-19 18:18:26,224 INFO looking for replies to: 968895132539019266
+2018-03-19 18:18:26,224 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:26,292 WARNING rate limit exceeded: sleeping 434.708055973053 secs
