@@ -25325,3 +25325,18 @@
 2018-03-19 18:18:26,224 INFO looking for replies to: 968895132539019266
 2018-03-19 18:18:26,224 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:tomhanks', 'result_type': 'recent', 'since_id': '968895132539019266', 'tweet_mode': 'extended'}}
 2018-03-19 18:18:26,292 WARNING rate limit exceeded: sleeping 434.708055973053 secs
+2018-03-19 18:18:59,184 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:18:59,185 INFO hydrating ['975858853358325761']
+2018-03-19 18:18:59,185 INFO creating http session
+2018-03-19 18:18:59,186 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '975858853358325761', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:59,465 INFO archived 975858853358325761
+2018-03-19 18:18:59,466 INFO looking for replies to: 975858853358325761
+2018-03-19 18:18:59,466 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:KingJames', 'result_type': 'recent', 'since_id': '975858853358325761', 'tweet_mode': 'extended'}}
+2018-03-19 18:18:59,532 WARNING rate limit exceeded: sleeping 401.4675462245941 secs
+2018-03-19 18:19:04,648 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:19:04,648 INFO hydrating ['975768080273018880']
+2018-03-19 18:19:04,649 INFO creating http session
+2018-03-19 18:19:04,649 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '975768080273018880', 'tweet_mode': 'extended'}}
+2018-03-19 18:19:04,920 INFO archived 975768080273018880
+2018-03-19 18:19:04,920 INFO looking for replies to: 975768080273018880
+2018-03-19 18:19:04,920 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:KingJames', 'result_type': 'recent', 'since_id': '975768080273018880', 'tweet_mode': 'extended'}}
