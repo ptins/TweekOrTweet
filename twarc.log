@@ -25340,3 +25340,11 @@
 2018-03-19 18:19:04,920 INFO archived 975768080273018880
 2018-03-19 18:19:04,920 INFO looking for replies to: 975768080273018880
 2018-03-19 18:19:04,920 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:KingJames', 'result_type': 'recent', 'since_id': '975768080273018880', 'tweet_mode': 'extended'}}
+2018-03-19 18:22:08,765 INFO loading main profile from config /Users/ptinsley/.twarc
+2018-03-19 18:22:08,765 INFO hydrating ['975858853358325761']
+2018-03-19 18:22:08,766 INFO creating http session
+2018-03-19 18:22:08,766 INFO posting ('https://api.twitter.com/1.1/statuses/lookup.json',) {'data': {'id': '975858853358325761', 'tweet_mode': 'extended'}}
+2018-03-19 18:22:09,122 INFO archived 975858853358325761
+2018-03-19 18:22:09,122 INFO looking for replies to: 975858853358325761
+2018-03-19 18:22:09,122 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'to:KingJames', 'result_type': 'recent', 'since_id': '975858853358325761', 'tweet_mode': 'extended'}}
+2018-03-19 18:22:09,191 WARNING rate limit exceeded: sleeping 211.80839204788208 secs
