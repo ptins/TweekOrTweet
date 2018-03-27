@@ -1,4 +1,4 @@
-name,username,industry,controversial
+name,screen_name,industry,controversial
 Dwayne Johnson,TheRock,celebrity,no
 Tom Hanks,tomhanks,celebrity,no
 Chris Pratt,prattprattpratt,celebrity,no
@@ -39,8 +39,8 @@ Lance Armstrong,lancearmstrong,athlete,yes
 Colin Kaepernick,Kaepernick7,athlete,yes
 Hope Solo,hopesolo,athlete,yes
 Ronda Rousey,RondaRousey,athlete,yes
-Adele,officialadele,musician,no
-Bruno Mars,brunomars,musician,no
+Adele,Adele,musician,no
+Bruno Mars,BrunoMars,musician,no
 Selena Gomez,selenagomez,musician,no
 Coldplay,coldplay,musician,no
 Ed Sheeran,ed sheeran,musician,no
