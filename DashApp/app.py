@@ -8,13 +8,16 @@ app = dash.Dash()
 
 df = pd.read_csv('user_tweets_FROM.csv')
 df.columns = ['tweet_id','created_at','favorite_count','retweet_count','followers_count','screen_name','industry']
+celeb_df = df[df['industry']=='celebrity']
+athlete_df = df[df['industry']=='athlete']
+musician_df = df[df['industry']=='musician']
 
 trace1 = dict(
         type='scatterternary',
-        a= df['retweet_count'],
-        b= df['retweet_count'],
-        c= df['favorite_count'],
-        text= df['screen_name'],
+        a= celeb_df['retweet_count'],
+        b= celeb_df['retweet_count'],
+        c= celeb_df['favorite_count'],
+        text= celeb_df['screen_name'],
         mode='markers',
         marker={
             'symbol': 100,
@@ -23,31 +26,33 @@ trace1 = dict(
         }
 )
 
-# trace2 = dict(
-#         type='scatterternary',
-#         a=[4, 5, 6],
-#         b=[5, 6, 7],
-#         c=[6, 7, 8],
-#         mode='markers',
-#         marker={
-#             'symbol': 100,
-#             'color': 'red',
-#             'size': 10
-#         }
-# )
-#
-# trace3 = dict(
-#         type='scatterternary',
-#         a=[7, 8, 9],
-#         b=[8, 9, 10],
-#         c=[9, 10, 11],
-#         mode='markers',
-#         marker={
-#             'symbol': 100,
-#             'color': 'blue',
-#             'size': 10
-#         }
-# )
+trace2 = dict(
+        type='scatterternary',
+        a=athlete_df['retweet_count'],
+        b=athlete_df['retweet_count'],
+        c=athlete_df['favorite_count'],
+        text= athlete_df['screen_name'],
+        mode='markers',
+        marker={
+            'symbol': 100,
+            'color': 'red',
+            'size': 10
+        }
+)
+
+trace3 = dict(
+        type='scatterternary',
+        a= musician_df['retweet_count'],
+        b= musician_df['retweet_count'],
+        c= musician_df['favorite_count'],
+        text= musician_df['screen_name'],
+        mode='markers',
+        marker={
+            'symbol': 100,
+            'color': 'blue',
+            'size': 10
+        }
+)
 
 app.layout = html.Div(children=[
 
@@ -63,11 +68,11 @@ app.layout = html.Div(children=[
         html.H3('Select Industry'),
         dcc.Dropdown(
             options=[
-                {'label': 'Celebrities', 'value': 'CEL'},
-                {'label': 'Athletes', 'value': 'ATH'},
-                {'label': 'Musicians', 'value': 'MUS'}
+                {'label': 'Celebrities', 'value': 'celebrity'},
+                {'label': 'Athletes', 'value': 'athlete'},
+                {'label': 'Musicians', 'value': 'musician'}
             ],
-            value=['CEL', 'ATH'],
+            value=['celebrity', 'athlete', 'musician'],
             multi=True
             )
         ]
