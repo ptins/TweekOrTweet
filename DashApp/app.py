@@ -7,6 +7,7 @@ import dash_html_components as html
 app = dash.Dash()
 
 df = pd.read_csv('user_tweets_FROM.csv')
+print(df.head())
 df.columns = ['tweet_id','created_at','favorite_count','retweet_count','followers_count','screen_name','industry']
 celeb_df = df[df['industry']=='celebrity']
 athlete_df = df[df['industry']=='athlete']
@@ -28,9 +29,9 @@ trace1 = dict(
 
 trace2 = dict(
         type='scatterternary',
-        a=athlete_df['retweet_count'],
-        b=athlete_df['retweet_count'],
-        c=athlete_df['favorite_count'],
+        a= athlete_df['retweet_count'],
+        b= athlete_df['retweet_count'],
+        c= athlete_df['favorite_count'],
         text= athlete_df['screen_name'],
         mode='markers',
         marker={
@@ -82,8 +83,8 @@ app.layout = html.Div(children=[
     dcc.Graph(
         id='example-graph',
         figure={
-            'data': [trace1],
-            # 'data': [trace1, trace2, trace3],
+            # 'data': [trace1],
+            'data': [trace1, trace2, trace3],
             'layout': {
                 'title': 'Ternary Scatter Plot',
                 'ternary': {
