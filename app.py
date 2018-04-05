@@ -1,11 +1,10 @@
 import numpy as np
 import pandas as pd
+from sklearn import preprocessing
 
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-
-from sklearn import preprocessing
 
 ## start app
 
@@ -156,7 +155,7 @@ app.layout = html.Div(children=[
     ## industry selection
     html.Div(children=[
 
-        html.H2('Select Metric', style={'textAlign': 'center'}),
+        html.H2('Select Metric:'),
         dcc.Dropdown(
             id='metric',
             options=[
