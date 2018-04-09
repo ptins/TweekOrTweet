@@ -4,6 +4,11 @@ import pandas as pd
 from textblob import TextBlob
 from sklearn import preprocessing
 
+import preprocessor as p
+p.set_options(p.OPT.URL, p.OPT.MENTION, p.OPT.EMOJI, p.OPT.SMILEY)
+
+import string
+
 consumer_key = 'n9LMcL7CRMtaTY5TXMp1VfIKo'
 consumer_secret = 'G0ghn8E8TJPCKl29AfmA4019U1hq6NhGQFoMsJ05CARnmkeE7U'
 access_token = '1959972582-gfpDYaAbKj7c412HOalcL0jQv0QdhJtgwZguXjl'
@@ -13,13 +18,18 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api  = tweepy.API(auth)
 
-import preprocessor as p
-def clean_tweet(tweet):
-    return p.clean(tweet).replace(',',' ')
+people = pd.read_csv('people_list.csv')
 
-def collect_tweets_from_user(screen_name, industry):
+def clean_tweet(tweet):
+    t = p.clean(tweet)
+    table = t.maketrans({key: None for key in string.punctuation})
+    return t.translate(table)
+
+def collect_tweets_from_user(screen_name):
 
     print('collecting tweets from '+screen_name)
+
+    industry = people[people['screen_name']==screen_name]['industry'].values[0]
 
     # fetch tweets
     tweets = api.user_timeline(screen_name, count=200)
@@ -52,12 +62,5 @@ def collect_tweets_from_user(screen_name, industry):
             # print error (if any)
             print("Error : " + str(e))
 
-
-people = pd.read_csv('people_list.csv')
-
-def collect_for_industry(industry):
-    screen_names = list(people[people['industry']==industry]['screen_name'])
-    # print(screen_names)
-    [collect_tweets_from_user(screen_name, industry) for screen_name in screen_names]
-
-[collect_for_industry(industry) for industry in ['celebrity','athlete','musician']]
+screen_names = list(people['screen_name'])
+[collect_tweets_from_user(screen_name) for screen_name in screen_names]
