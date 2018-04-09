@@ -14,7 +14,7 @@ auth.set_access_token(access_token, access_token_secret)
 api  = tweepy.API(auth)
 
 def clean_tweet(tweet):
-    return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
+    return ' '.join(tweet.replace(',', '').split())
 
 def collect_tweets_about_user(screen_name, industry):
 
@@ -31,12 +31,12 @@ def collect_tweets_about_user(screen_name, industry):
             # loop through tweets
             for tweet in tweets:
 
-                clean_text = clean_tweet(tweet.text)
-                analysis = TextBlob(clean_text)
-                polarity = analysis.sentiment.polarity
-
                 # make sure tweet not already in file
                 if str(tweet.id) not in open('user_tweets_about.csv').read():
+
+                    clean_text = clean_tweet(tweet.text)
+                    analysis = TextBlob(clean_text)
+                    polarity = analysis.sentiment.polarity
 
                     s = '{},{},{},{},{},{},{},{}\n'.format(tweet.id,
                                                         tweet.created_at,
@@ -53,12 +53,11 @@ def collect_tweets_about_user(screen_name, industry):
             # print error (if any)
             print("Error : " + str(e))
 
-
 people = pd.read_csv('people_list.csv')
 
-### ONLY LINE NEED TO CHANGE -- 'celebrity' to 'athlete/musician'
-industry = 'celebrity'
-###
+def collect_for_industry(industry):
+    screen_names = list(people[people['industry']==industry]['screen_name'])
+    # print(screen_names)
+    [collect_tweets_about_user(screen_name, industry) for screen_name in screen_names]
 
-screen_names = list(people[people['industry']==industry]['screen_name'])
-[collect_tweets_about_user(screen_name, industry) for screen_name in screen_names]
+[collect_for_industry(industry) for industry in ['celebrity','athlete','musician']]

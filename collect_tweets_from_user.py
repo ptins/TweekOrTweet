@@ -1,3 +1,4 @@
+import re
 import tweepy
 import pandas as pd
 from textblob import TextBlob
@@ -11,6 +12,9 @@ access_token_secret = 'nZJVEdDSHsCZvV8dvRtXBjOoDIzeKOSKyvtaavjeV5ARK'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api  = tweepy.API(auth)
+
+def clean_tweet(tweet):
+    return ' '.join(tweet.replace(',', '').split())
 
 def collect_tweets_from_user(screen_name, industry):
 
@@ -30,8 +34,11 @@ def collect_tweets_from_user(screen_name, industry):
                 # check if tweet in file
                 if str(tweet.id) not in open('user_tweets_from.csv').read():
 
-                    s = '{},{},{},{},{},{},{}\n'.format(tweet.id,
+                    clean_text = clean_tweet(tweet.text)
+
+                    s = '{},{},{},{},{},{},{},{}\n'.format(tweet.id,
                                                      tweet.created_at,
+                                                     clean_text,
                                                      tweet.favorite_count,
                                                      tweet.retweet_count,
                                                      tweet.user.followers_count,
@@ -47,9 +54,9 @@ def collect_tweets_from_user(screen_name, industry):
 
 people = pd.read_csv('people_list.csv')
 
-### ONLY LINE NEED TO CHANGE -- 'celebrity' to 'athlete/musician'
-industry = 'celebrity'
-###
+def collect_for_industry(industry):
+    screen_names = list(people[people['industry']==industry]['screen_name'])
+    # print(screen_names)
+    [collect_tweets_from_user(screen_name, industry) for screen_name in screen_names]
 
-screen_names = list(people[people['industry']==industry]['screen_name'])
-[collect_tweets_from_user(screen_name, industry) for screen_name in screen_names]
+[collect_for_industry(industry) for industry in ['celebrity','athlete','musician']]
