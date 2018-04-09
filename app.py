@@ -152,13 +152,17 @@ app.layout = html.Div(children=[
 
     dcc.Graph(
         id = 'example-graph',
+        style = {
+                'width': '50%',
+                'display': 'inline-block'
+        },
         figure = {
             'data': [trace1, trace2, trace3],
             'layout': {
                 'ternary': {
                     'sum': 1,
                     'aaxis': {'title': 'Retweet Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'baxis': {'title': 'Followers', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
+                    'baxis': {'title': 'RFR', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
                     'caxis': {'title': 'Favorite Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' }
                 },
                 'annotations': [{
@@ -174,13 +178,17 @@ app.layout = html.Div(children=[
 
     dcc.Graph(
         id = 'example-graph-2',
+        style = {
+                'width': '50%',
+                'display': 'inline-block'
+        },
         figure = {
             'data': [trace4, trace5, trace6],
             'layout': {
                 'ternary': {
                     'sum': 1,
                     'aaxis': {'title': 'Retweet Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'baxis': {'title': 'Followers', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
+                    'baxis': {'title': 'RFR', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
                     'caxis': {'title': 'Favorite Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' }
                 },
                 'annotations': [{
