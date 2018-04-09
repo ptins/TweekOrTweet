@@ -25,9 +25,9 @@ df['rfr'] = (df['favorite_count']+df['retweet_count'])/df['followers_count']
 tmp = df.drop(['created_at','text','screen_name','industry'],axis=1)
 normalized = (tmp-tmp.min())/(tmp.max()-tmp.min())
 normalized['text'] = df['text']
-normalized['created_at']= df['created_at']
-normalized['screen_name']= df['screen_name']
-normalized['industry']= df['industry']
+normalized['created_at'] = df['created_at']
+normalized['screen_name'] = df['screen_name']
+normalized['industry'] = df['industry']
 df = normalized
 
 ## split data into industry for traces
@@ -43,6 +43,9 @@ celeb_df_ave = df_ave[df_ave['industry']=='celebrity']
 athlete_df_ave = df_ave[df_ave['industry']=='athlete']
 musician_df_ave = df_ave[df_ave['industry']=='musician']
 
+# check merge worked
+print(celeb_df_ave.shape, athlete_df_ave.shape, musician_df_ave.shape)
+
 trace1 = dict(
         type='scatterternary',
         a = celeb_df['retweet_count'],
@@ -54,7 +57,7 @@ trace1 = dict(
         marker = {
             'symbol': 'o',
             'color': 'green',
-            'size': 14
+            'size': 10
         },
         name = 'Celebrities'
 )
@@ -70,7 +73,7 @@ trace2 = dict(
         marker = {
             'symbol': athlete_df['screen_name'],
             'color': 'red',
-            'size': 14
+            'size': 10
         },
         name = 'Athletes'
 )
@@ -86,7 +89,7 @@ trace3 = dict(
         marker = {
             'symbol': musician_df['screen_name'],
             'color': 'blue',
-            'size': 14
+            'size': 10
         },
         name = 'Musicians'
 )
@@ -102,7 +105,7 @@ trace4 = dict(
         marker = {
             'symbol': 'o',
             'color': 'green',
-            'size': 14
+            'size': 10
         },
         name = 'Celebrities'
 )
@@ -118,7 +121,7 @@ trace5 = dict(
         marker = {
             'symbol': 'o',
             'color': 'red',
-            'size': 14
+            'size': 10
         },
         name = 'Athletes'
 )
@@ -134,7 +137,7 @@ trace6 = dict(
         marker = {
             'symbol': 'o',
             'color': 'blue',
-            'size': 14
+            'size': 10
         },
         name = 'Musicians'
 )

@@ -13,8 +13,9 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api  = tweepy.API(auth)
 
+import preprocessor as p
 def clean_tweet(tweet):
-    return ' '.join(tweet.replace(',', '').split())
+    return p.clean(tweet).replace(',',' ')
 
 def collect_tweets_from_user(screen_name, industry):
 
