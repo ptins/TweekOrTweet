@@ -18,7 +18,7 @@ df_from = pd.read_csv('user_tweets_from.csv')
 df_about = pd.read_csv('user_tweets_about.csv')
 # print(df_from.head())
 # print(df_about.head())
- 
+
 # df_from = pd.merge(left=df_from, right=df_people)
 #
 # ## feature engineering
@@ -129,5 +129,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    # app.run_server(debug=True)
-    app.run_server(debug=False)
+    app.run_server(debug=True)
