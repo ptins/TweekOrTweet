@@ -7,6 +7,19 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
+## functions
+
+def split_df_by_industry(df):
+    df1 = df[df['industry'] == 'athlete']
+    df2 = df[df['industry'] == 'celebrity']
+    df3 = df[df['industry'] == 'musician']
+    return df1, df2, df3
+
+def split_df_by_controversy(df):
+    df1 = df[df['controversial'] == 0]
+    df2 = df[df['controversial'] == 1]
+
+
 ## start app
 
 app = dash.Dash(__name__)
@@ -24,7 +37,7 @@ df_about['daysSince'] = (datetime.utcnow() - pd.to_datetime(df_about['created_at
 
 app.layout = html.Div(children=[
 
-    html.Div(id='some-text'),
+    html.H3(id='some-text'),
 
     html.Div([
         dcc.Slider(
@@ -44,8 +57,6 @@ app.layout = html.Div(children=[
 )
 def update_output_div(daysSince):
     return 'You want to get tweets from {} days ago.'.format(daysSince)
-
-
 
 if __name__ == '__main__':
     app.run_server(debug=False)

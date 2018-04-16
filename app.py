@@ -18,8 +18,8 @@ df_people = pd.read_csv('people_list.csv')
 df_from = pd.read_csv('user_tweets_from.csv')
 df_about = pd.read_csv('user_tweets_about.csv')
 
-# df_from['daysSince'] = datetime.utcnow() - pd.to_datetime(df_from['created_at'])
-# df_about['daysSince'] = datetime.utcnow() - pd.to_datetime(df_about['created_at'])
+df_from['daysSince'] = datetime.utcnow() - pd.to_datetime(df_from['created_at'])
+df_about['daysSince'] = datetime.utcnow() - pd.to_datetime(df_about['created_at'])
 
 # print(df_from.head())
 # print(df_about.head())
