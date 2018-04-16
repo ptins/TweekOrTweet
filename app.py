@@ -18,27 +18,27 @@ df_people = pd.read_csv('people_list.csv')
 df_from = pd.read_csv('user_tweets_from.csv')
 df_about = pd.read_csv('user_tweets_about.csv')
 
-df_from['daysSince'] = datetime.utcnow() - pd.to_datetime(df_from['created_at'])
-df_about['daysSince'] = datetime.utcnow() - pd.to_datetime(df_about['created_at'])
+# df_from['daysSince'] = datetime.utcnow() - pd.to_datetime(df_from['created_at'])
+# df_about['daysSince'] = datetime.utcnow() - pd.to_datetime(df_about['created_at'])
 
 # print(df_from.head())
 # print(df_about.head())
 
-# df_from = pd.merge(left=df_from, right=df_people)
+df_from = pd.merge(left=df_from, right=df_people)
 #
 # ## feature engineering
-# df_from['rfr'] = (1.0*df_from['favorite_count']+1.0*df_from['retweet_count'])/df_from['followers_count']
+df_from['rfr'] = (1.0*df_from['favorite_count']+1.0*df_from['retweet_count'])/df_from['followers_count']
 #
 # ## normalize
-# df_from['favorite_count_norm'] = df_from['favorite_count'] / df_from['favorite_count'].max()
-# df_from['retweet_count_norm']  = df_from['retweet_count'] / df_from['retweet_count'].max()
-# df_from['followers_count_norm'] = df_from['followers_count'] / df_from['followers_count'].max()
-# df_from['rfr_norm'] = df_from['rfr'] / df_from['rfr'].max()
+df_from['favorite_count_norm'] = df_from['favorite_count'] / df_from['favorite_count'].max()
+df_from['retweet_count_norm']  = df_from['retweet_count'] / df_from['retweet_count'].max()
+df_from['followers_count_norm'] = df_from['followers_count'] / df_from['followers_count'].max()
+df_from['rfr_norm'] = df_from['rfr'] / df_from['rfr'].max()
 
 ## separate
-# celeb_df_from = df_from[df_from['industry'] == 'celebrity']
-# athlete_df_from = df_from[df_from['industry'] == 'athlete']
-# musician_df_from = df_from[df_from['industry'] == 'musician']
+celeb_df_from = df_from[df_from['industry'] == 'celebrity']
+athlete_df_from = df_from[df_from['industry'] == 'athlete']
+musician_df_from = df_from[df_from['industry'] == 'musician']
 
 ### END FROM DF ###
 
