@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+# from datetime import datetime
 
 import dash
 import dash_core_components as dcc
@@ -16,6 +17,10 @@ df_people = pd.read_csv('people_list.csv')
 
 df_from = pd.read_csv('user_tweets_from.csv')
 df_about = pd.read_csv('user_tweets_about.csv')
+
+# df_from['daysSince'] = datetime.utcnow() - pd.to_datetime(df_from['created_at'])
+# df_about['daysSince'] = datetime.utcnow() - pd.to_datetime(df_about['created_at'])
+
 # print(df_from.head())
 # print(df_about.head())
 
@@ -53,21 +58,21 @@ df_about = pd.read_csv('user_tweets_about.csv')
 
 ### END ABOUT DF ###
 
-trace1 = dict(
-        type='scatterternary',
-        a = df_from['retweet_count_norm'],
-        b = df_from['rfr_norm'],
-        c = df_from['favorite_count_norm'],
-        text = df_from['text'],
-        mode = 'markers',
-        opacity = .5,
-        marker = {
-            'symbol': 'x',
-            'color': 'red',
-            'size': 10
-        },
-        name = 'Controversial'
-)
+# trace1 = dict(
+#         type='scatterternary',
+#         a = df_from['retweet_count_norm'],
+#         b = df_from['rfr_norm'],
+#         c = df_from['favorite_count_norm'],
+#         text = df_from['text'],
+#         mode = 'markers',
+#         opacity = .5,
+#         marker = {
+#             'symbol': 'x',
+#             'color': 'red',
+#             'size': 10
+#         },
+#         name = 'Controversial'
+# )
 
 app.layout = html.Div(children=[
 
@@ -129,4 +134,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
