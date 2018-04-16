@@ -1,61 +1,61 @@
 name,screen_name,industry,controversial
-Dwayne Johnson,TheRock,celebrity,no
-Tom Hanks,tomhanks,celebrity,no
-Chris Pratt,prattprattpratt,celebrity,no
-Leonardo Dicaprio,LeoDiCaprio,celebrity,no
-Jimmy Fallon,jimmyfallon,celebrity,no
-Gina Rodriguez,HereIsGina,celebrity,no
-Emma Watson,EmmaWatson,celebrity,no
-Anna Kendrick,AnnaKendrick47,celebrity,no
-Ellen Degeneres,TheEllenShow,celebrity,no
-Oprah Winfrey,Oprah,celebrity,no
-Caitlyn Jenner,Caitlyn_Jenner,celebrity,yes
-Mehmet Oz,DrOz,celebrity,yes
-Piers Morgan,piersmorgan,celebrity,yes
-Ashton Kutcher,aplusk,celebrity,yes
-Kevin Spacey,KevinSpacey,celebrity,yes
-Chelsea Handler,chelseahandler,celebrity,yes
-Lindsay Lohan,lindsaylohan,celebrity,yes
-Kim Kardashian,KimKardashian,celebrity,yes
-Gwyneth Paltrow,GwynethPaltrow,celebrity,yes
-Kristen Stewart,_KrisJStewart,celebrity,yes
-Kristaps Porzingis,kporzee,athlete,no
-Lionel Messi,Lionel_Messi,athlete,no
-Cristiano Ronaldo,Cristiano,athlete,no
-Russell Westbrook,russwest44,athlete,no
-Steph Curry,StephenCurry30,athlete,no
-Roger Federer,rogerfederer,athlete,no
-Serena Williams,serenawilliams,athlete,no
-Chloe Kim,chloekimsnow,athlete,no
-Lindsey Vonn,lindseyvonn,athlete,no
-Shaun White,shaunwhite,athlete,no
-Kevin Durant,KDTrey5,athlete,yes
-Rajon Rondo,RajonRondo,athlete,yes
-Lebron James,KingJames,athlete,yes
-Draymond Green,Money23Green,athlete,yes
-Lavar Ball,Lavarbigballer,athlete,yes
-Tiger Woods,TigerWoods,athlete,yes
-Lance Armstrong,lancearmstrong,athlete,yes
-Colin Kaepernick,Kaepernick7,athlete,yes
-Hope Solo,hopesolo,athlete,yes
-Ronda Rousey,RondaRousey,athlete,yes
-Adele,Adele,musician,no
-Bruno Mars,BrunoMars,musician,no
-Selena Gomez,selenagomez,musician,no
-Coldplay,coldplay,musician,no
-Ed Sheeran,edsheeran,musician,no
-John Legend,johnlegend,musician,no
-Shakira,shakira,musician,no
-Beyonce,Beyonce,musician,no
-Nick Jonas,nickjonas,musician,no
-Jason Mraz,jason_mraz,musician,no
-Tyler The Creator,tylerthecreator,musician,yes
-John Mayer,JohnMayer,musician,yes
-Taylor Swift,taylorswift13,musician,yes
-Britney Spears,britneyspears,musician,yes
-Justin Bieber,justinbieber,musician,yes
-Miley Cyrus,MileyCyrus,musician,yes
-Marilyn Manson,marilynmanson,musician,yes
-Chris Brown,chrisbrown,musician,yes
-Eminem,Eminem,musician,yes
-Fergie,Fergie,musician,yes
+Dwayne Johnson,TheRock,celebrity,0
+Tom Hanks,tomhanks,celebrity,0
+Chris Pratt,prattprattpratt,celebrity,0
+Leonardo Dicaprio,LeoDiCaprio,celebrity,0
+Jimmy Fallon,jimmyfallon,celebrity,0
+Gina Rodriguez,HereIsGina,celebrity,0
+Emma Watson,EmmaWatson,celebrity,0
+Anna Kendrick,AnnaKendrick47,celebrity,0
+Ellen Degeneres,TheEllenShow,celebrity,0
+Oprah Winfrey,Oprah,celebrity,0
+Caitlyn Jenner,Caitlyn_Jenner,celebrity,1
+Mehmet Oz,DrOz,celebrity,1
+Piers Morgan,piersmorgan,celebrity,1
+Ashton Kutcher,aplusk,celebrity,1
+Kevin Spacey,KevinSpacey,celebrity,1
+Chelsea Handler,chelseahandler,celebrity,1
+Lindsay Lohan,lindsaylohan,celebrity,1
+Kim Kardashian,KimKardashian,celebrity,1
+Gwyneth Paltrow,GwynethPaltrow,celebrity,1
+Kristen Stewart,_KrisJStewart,celebrity,1
+Kristaps Porzingis,kporzee,athlete,0
+Lionel Messi,Lionel_Messi,athlete,0
+Cristiano Ronaldo,Cristiano,athlete,0
+Russell Westbrook,russwest44,athlete,0
+Steph Curry,StephenCurry30,athlete,0
+Roger Federer,rogerfederer,athlete,0
+Serena Williams,serenawilliams,athlete,0
+Chloe Kim,chloekimsnow,athlete,0
+Lindsey Vonn,lindseyvonn,athlete,0
+Shaun White,shaunwhite,athlete,0
+Kevin Durant,KDTrey5,athlete,1
+Rajon Rondo,RajonRondo,athlete,1
+Lebron James,KingJames,athlete,1
+Draymond Green,Money23Green,athlete,1
+Lavar Ball,Lavarbigballer,athlete,1
+Tiger Woods,TigerWoods,athlete,1
+Lance Armstrong,lancearmstrong,athlete,1
+Colin Kaepernick,Kaepernick7,athlete,1
+Hope Solo,hopesolo,athlete,1
+Ronda Rousey,RondaRousey,athlete,1
+Adele,Adele,musician,0
+Bruno Mars,BrunoMars,musician,0
+Selena Gomez,selenagomez,musician,0
+Coldplay,coldplay,musician,0
+Ed Sheeran,edsheeran,musician,0
+John Legend,johnlegend,musician,0
+Shakira,shakira,musician,0
+Beyonce,Beyonce,musician,0
+Nick Jonas,nickjonas,musician,0
+Jason Mraz,jason_mraz,musician,0
+Tyler The Creator,tylerthecreator,musician,1
+John Mayer,JohnMayer,musician,1
+Taylor Swift,taylorswift13,musician,1
+Britney Spears,britneyspears,musician,1
+Justin Bieber,justinbieber,musician,1
+Miley Cyrus,MileyCyrus,musician,1
+Marilyn Manson,marilynmanson,musician,1
+Chris Brown,chrisbrown,musician,1
+Eminem,Eminem,musician,1
+Fergie,Fergie,musician,1

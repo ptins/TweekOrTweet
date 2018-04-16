@@ -47,14 +47,13 @@ def collect_tweets_from_user(screen_name):
 
                     clean_text = clean_tweet(tweet.text)
 
-                    s = '{},{},{},{},{},{},{},{}\n'.format(tweet.id,
+                    s = '{},{},{},{},{},{},{}\n'.format(tweet.id,
                                                      tweet.created_at,
                                                      clean_text,
                                                      tweet.favorite_count,
                                                      tweet.retweet_count,
                                                      tweet.user.followers_count,
-                                                     tweet.user.screen_name,
-                                                     industry)
+                                                     tweet.user.screen_name)
                     # write to file
                     myfile.write(s)
 

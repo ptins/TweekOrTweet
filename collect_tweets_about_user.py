@@ -28,8 +28,6 @@ def collect_tweets_about_user(screen_name):
 
     print('collecting tweets about '+screen_name)
 
-    industry = people[people['screen_name']==screen_name]['industry'].values[0]
-
     # fetch tweets
     tweets = api.search(screen_name, lang='en', count=200)
 
@@ -48,14 +46,13 @@ def collect_tweets_about_user(screen_name):
                     analysis = TextBlob(clean_text)
                     polarity = analysis.sentiment.polarity
 
-                    s = '{},{},{},{},{},{},{},{}\n'.format(tweet.id,
+                    s = '{},{},{},{},{},{},{}\n'.format(tweet.id,
                                                         tweet.created_at,
+                                                        clean_text,
                                                         tweet.favorite_count,
                                                         tweet.retweet_count,
-                                                        clean_text,
                                                         polarity,
-                                                        screen_name,
-                                                        industry)
+                                                        screen_name)
                     # write to file
                     myfile.write(s)
 

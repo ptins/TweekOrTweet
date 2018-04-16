@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 
-from sklearn import preprocessing
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -12,195 +10,121 @@ import dash_html_components as html
 app = dash.Dash(__name__)
 server = app.server
 
-## load data
+df_people = pd.read_csv('people_list.csv')
 
-df = pd.read_csv('user_tweets_from.csv', header=None)
-df.columns = ['tweet_id','created_at','text',
-            'favorite_count','retweet_count','followers_count',
-            'screen_name','industry']
+### FROM DF ###
 
-# feature engineering
-df['rfr'] = (df['favorite_count']+df['retweet_count'])/df['followers_count']
+df_from = pd.read_csv('user_tweets_from.csv')
+df_about = pd.read_csv('user_tweets_about.csv')
+# print(df_from.head())
+# print(df_about.head())
+ 
+# df_from = pd.merge(left=df_from, right=df_people)
+#
+# ## feature engineering
+# df_from['rfr'] = (1.0*df_from['favorite_count']+1.0*df_from['retweet_count'])/df_from['followers_count']
+#
+# ## normalize
+# df_from['favorite_count_norm'] = df_from['favorite_count'] / df_from['favorite_count'].max()
+# df_from['retweet_count_norm']  = df_from['retweet_count'] / df_from['retweet_count'].max()
+# df_from['followers_count_norm'] = df_from['followers_count'] / df_from['followers_count'].max()
+# df_from['rfr_norm'] = df_from['rfr'] / df_from['rfr'].max()
 
-# normalize
-df['favorite_count_norm'] = df['favorite_count'] / df['favorite_count'].max()
-df['retweet_count_norm']  = df['retweet_count'] / df['retweet_count'].max()
-df['followers_count_norm'] = df['followers_count'] / df['followers_count'].max()
-df['rfr_norm'] = df['rfr'] / df['rfr'].max()
+## separate
+# celeb_df_from = df_from[df_from['industry'] == 'celebrity']
+# athlete_df_from = df_from[df_from['industry'] == 'athlete']
+# musician_df_from = df_from[df_from['industry'] == 'musician']
 
-# separate
-celeb_df = df[df['industry'] == 'celebrity']
-athlete_df = df[df['industry'] == 'athlete']
-musician_df = df[df['industry'] == 'musician']
+### END FROM DF ###
 
-df_ave = df.groupby('screen_name').mean()
+### ABOUT DF ###
 
-people = pd.read_csv('people_list.csv')
+# df_about = pd.read_csv('user_tweets_about.csv', header=None)
+# df_about.columns = ['tweet_id','created_at','favorite_count','retweet_count','text',
+#             'polarity','screen_name','industry']
+#
+# df_about = pd.merge(left=df_about, right=df_people)
+#
+# df_about['polarity'] = df_about['polarity']+1
+#
+# celeb_df_about = df_about[df_about['industry'] == 'celebrity']
+# athlete_df_about = df_about[df_about['industry'] == 'athlete']
+# musician_df_about = df_about[df_about['industry'] == 'musician']
 
-df_ave = pd.merge(left=df_ave, right=people, left_index=True, right_on='screen_name').drop('tweet_id', axis=1)
-# print(df_ave.head())
-
-celeb_df_ave = df_ave[df_ave['industry'] == 'celebrity']
-athlete_df_ave = df_ave[df_ave['industry'] == 'athlete']
-musician_df_ave = df_ave[df_ave['industry'] == 'musician']
+### END ABOUT DF ###
 
 trace1 = dict(
         type='scatterternary',
-        a = celeb_df['retweet_count_norm'],
-        b = celeb_df['rfr_norm'],
-        c = celeb_df['favorite_count_norm'],
-        text = celeb_df['screen_name'],
+        a = df_from['retweet_count_norm'],
+        b = df_from['rfr_norm'],
+        c = df_from['favorite_count_norm'],
+        text = df_from['text'],
         mode = 'markers',
         opacity = .5,
         marker = {
-            'symbol': 'o',
-            'color': 'green',
-            'size': 10
-        },
-        name = 'celebrity'
-)
-
-trace2 = dict(
-        type = 'scatterternary',
-        a = athlete_df['retweet_count_norm'],
-        b = athlete_df['rfr_norm'],
-        c = athlete_df['favorite_count_norm'],
-        text = athlete_df['screen_name'],
-        mode ='markers',
-        opacity = .5,
-        marker = {
-            'symbol': athlete_df['screen_name'],
+            'symbol': 'x',
             'color': 'red',
             'size': 10
         },
-        name = 'athlete'
-)
-
-trace3 = dict(
-        type = 'scatterternary',
-        a = musician_df['retweet_count_norm'],
-        b = musician_df['rfr_norm'],
-        c = musician_df['favorite_count_norm'],
-        text = musician_df['screen_name'],
-        mode = 'markers',
-        opacity = .5,
-        marker = {
-            'symbol': musician_df['screen_name'],
-            'color': 'blue',
-            'size': 10
-        },
-        name = 'musician'
-)
-
-trace4 = dict(
-        type='scatterternary',
-        a = celeb_df_ave['retweet_count_norm'],
-        b = celeb_df_ave['rfr_norm'],
-        c = celeb_df_ave['favorite_count_norm'],
-        text = celeb_df_ave['screen_name'],
-        mode = 'markers',
-        opacity = .5,
-        marker = {
-            'symbol': 'o',
-            'color': 'green',
-            'size': 10
-        },
-        name = 'celebrity'
-)
-
-trace5 = dict(
-        type = 'scatterternary',
-        a = athlete_df_ave['retweet_count_norm'],
-        b = athlete_df_ave['rfr_norm'],
-        c = athlete_df_ave['favorite_count_norm'],
-        text = athlete_df_ave['screen_name'],
-        mode ='markers',
-        opacity = .5,
-        marker = {
-            'symbol': 'o',
-            'color': 'red',
-            'size': 10
-        },
-        name = 'athlete'
-)
-
-trace6 = dict(
-        type = 'scatterternary',
-        a = musician_df_ave['retweet_count_norm'],
-        b = musician_df_ave['rfr_norm'],
-        c = musician_df_ave['favorite_count_norm'],
-        text = musician_df_ave['screen_name'],
-        mode = 'markers',
-        opacity = .5,
-        marker = {
-            'symbol': 'o',
-            'color': 'blue',
-            'size': 10
-        },
-        name = 'musician'
+        name = 'Controversial'
 )
 
 app.layout = html.Div(children=[
 
+    # Title Stuff
     html.Div(children=[
-        html.H1(children='Twitter Persona Likability'),
-        html.P(children='Judge Individuals\' Likability Based on Tweeting Habits', style={'font-style': 'italic'}),
-        ]
-    ),
-
-    html.H2('TwitTernary Plots'),
-
-    dcc.Graph(
-        id = 'example-graph',
-        style = {
-                'width': '50%',
-                'display': 'inline-block'
+        html.H1(
+            children='Twitter Persona Likability'),
+        html.H4(
+            children='Judging Individuals\' Likability Based on Tweeting Habits'),
+        html.Hr(style={'width':'400'}),
+        ],
+        style={
+            'text-align': 'center'
         },
-        figure = {
-            'data': [trace1, trace2, trace3],
-            'layout': {
-                'ternary': {
-                    'sum': 1,
-                    'aaxis': {'title': 'Retweet Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'baxis': {'title': 'RFR', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'caxis': {'title': 'Favorite Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' }
-                },
-                'annotations': [{
-                    'showarrow': False,
-                    'text': 'Individual Tweets',
-                    'x': 0.5,
-                    'y': 1.3,
-                    'font': { 'size': 25 }
-                }]
-            }
-        }
+        className='twelve columns',
     ),
 
-    dcc.Graph(
-        id = 'example-graph-2',
-        style = {
-                'width': '50%',
-                'display': 'inline-block'
-        },
-        figure = {
-            'data': [trace4, trace5, trace6],
-            'layout': {
-                'ternary': {
-                    'sum': 1,
-                    'aaxis': {'title': 'Retweet Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'baxis': {'title': 'RFR', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
-                    'caxis': {'title': 'Favorite Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' }
-                },
-                'annotations': [{
-                    'showarrow': False,
-                    'text': 'Average Tweets',
-                    'x': 0.5,
-                    'y': 1.3,
-                    'font': { 'size': 25 }
-                }]
-            }
-        }
-    ),
+    # Left Half (Dropdowns and Graph)
+    html.Div(children=[
+        # Dropdowns
+        html.Label('Select Industry (>1 Allowed):'),
+        dcc.Dropdown(
+        options=[
+            {'label': 'Athletes', 'value': 'Athletes'},
+            {'label': 'Celebrities', 'value': 'Celebrities'},
+            {'label': 'Musicians', 'value': 'Musicians'}
+        ],
+        value=['Athletes'],
+        multi=True
+        ),
+    ], style='six columns')
+
+    # dcc.Graph(
+    #     id = 'celeb-ind',
+    #     style = {
+    #             'width': '50%',
+    #             'display': 'inline-block'
+    #     },
+    #     figure = {
+    #         'data': [trace1],
+    #         'layout': {
+    #             'ternary': {
+    #                 'sum': 1,
+    #                 'aaxis': {'title': 'Retweet Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
+    #                 'baxis': {'title': 'RFR', 'min': 0.01, 'linewidth':2, 'ticks':'outside' },
+    #                 'caxis': {'title': 'Favorite Count', 'min': 0.01, 'linewidth':2, 'ticks':'outside' }
+    #             },
+    #             'annotations': [{
+    #                 'showarrow': False,
+    #                 'text': 'Individual Tweets',
+    #                 'x': 0.5,
+    #                 'y': 1.3,
+    #                 'font': { 'size': 25 }
+    #             }]
+    #         }
+    #     }
+    # ),
 
 ])
 
