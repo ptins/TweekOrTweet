@@ -1,9 +1,17 @@
-data = read.csv('notebooks/data.csv')
-head(data)
+rm(list=ls())
 
-fit = glm(controversial ~ . - X - name - screen_name - industry, data = data)
-summary(fit)
+library('leaps')
 
-library(MASS)
-fit = glm(controversial ~ . - X - name - screen_name - industry, data = data)
-step <- stepAIC(fit, direction="both")
+dat = read.csv('notebooks/data.csv')
+head(dat)
+
+null = glm(controversial ~ 1, data=dat, family='binomial')
+full = glm(controversial ~ . - X - name - screen_name - industry, 
+           data=dat, family='binomial')
+
+step(null, scope=list(lower=null, upper=full), direction="both")
+
+best = glm(formula = controversial ~ polarity + favorite_count_about, 
+           data=dat, family="binomial")
+summary(best)
+
