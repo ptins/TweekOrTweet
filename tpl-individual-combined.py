@@ -50,7 +50,7 @@ trace_from = dict(
         a = df_from_first['retweet_count'],
         b = df_from_first['rfr'],
         c = df_from_first['favorite_count'],
-        text = df_from_first['screen_name'],
+        text = df_from_first['text'],
         mode = 'markers',
         opacity = .5,
         marker = {
@@ -60,11 +60,6 @@ trace_from = dict(
         },
         name = first
 )
-
-df_from = pd.merge(df_from, df_people)
-df_from['pred_rfr'] = df_from['rfr']<df_from['rfr'].mean()
-
-print(confusion_matrix(df_from['controversial'], df_from['pred_rfr']))
 
 ### END FROM SECTION ###
 
@@ -98,11 +93,6 @@ trace_about = go.Scatter(
     mode = 'markers+lines',
     name = first
 )
-
-df_about['pred_contro'] = df_about['controversiality']>df_about['controversiality'].mean()
-print(confusion_matrix(df_about['controversial'], df_about['pred_contro']))
-print(accuracy_score(df_about['controversial'], df_about['pred_contro']))
-exit()
 
 ### END ABOUT SECTION ###
 
@@ -178,7 +168,7 @@ def update_figure(screen_name):
         a = df_from_filtered['retweet_count'],
         b = df_from_filtered['rfr'],
         c = df_from_filtered['favorite_count'],
-        text = df_from_filtered['screen_name'],
+        text = df_from_filtered['text'],
         mode = 'markers',
         opacity = .5,
         marker = {

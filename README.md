@@ -1,10 +1,8 @@
 # Twitter Persona Likability
 
-> Determine whether or not a Twitter persona is controversial or not with Python.
+> The goal of this project was to classify whether or not a Twitter persona is controversial or not with Python.
 
-This project was for CSE 60437 - Social Sensing and Cyber-Physical Systems at the University of Notre Dame.
-
-## Inspiration
+Course: CSE 60437 - Social Sensing and Cyber-Physical Systems @ the University of Notre Dame.
 
 ## Timeline
 

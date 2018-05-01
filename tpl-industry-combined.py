@@ -21,11 +21,9 @@ for label in labels:
     options.append(dict({'label':label.capitalize(), 
                          'value':label}))
     
-first = df_people['industry'][0]
-    
+first = df_people['industry'][0]    
 
 ### START FROM SECTION ###   
-
 
 # read in data
 df_from = pd.read_csv('user_tweets_from.csv', index_col='tweet_id')
@@ -57,7 +55,7 @@ trace_from = dict(
         opacity = .5,
         marker = {
             'symbol': 'o',
-            'color': 'blue',
+            'color': df_from_first['controversial'],
             'size': 10
         },
         name = first
@@ -96,7 +94,90 @@ trace_about = go.Scatter(
 )
 
 ### END ABOUT SECTION ###
-    
+
+### CLASSIFICATION RESULTS ###
+
+df_from['rfr_pred'] = df_from['rfr']<df_from['rfr'].mean()
+
+print('\n### RFR ###\n')
+
+print('ConfMat (Total):\n{}'.format(
+    confusion_matrix(
+        df_from['controversial'], 
+        df_from['rfr_pred'])))
+print('Accuracy: {}'.format(accuracy_score(
+        df_from['controversial'], 
+        df_from['rfr_pred'])))
+
+print('ConfMat (Celebrity):\n{}'.format(
+    confusion_matrix(
+        df_from[df_from['industry']=='celebrity']['controversial'], 
+        df_from[df_from['industry']=='celebrity']['rfr_pred'])))
+      
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_from[df_from['industry']=='celebrity']['controversial'], 
+        df_from[df_from['industry']=='celebrity']['rfr_pred'])))      
+
+print('ConfMat (Athlete):\n{}'.format(
+    confusion_matrix(
+        df_from[df_from['industry']=='athlete']['controversial'], 
+        df_from[df_from['industry']=='athlete']['rfr_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_from[df_from['industry']=='athlete']['controversial'], 
+        df_from[df_from['industry']=='athlete']['rfr_pred'])))      
+      
+print('ConfMat (Musician):\n{}'.format(
+    confusion_matrix(
+        df_from[df_from['industry']=='musician']['controversial'], 
+        df_from[df_from['industry']=='musician']['rfr_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_from[df_from['industry']=='musician']['controversial'], 
+        df_from[df_from['industry']=='musician']['rfr_pred'])))      
+      
+df_about['controversial_pred'] = df_about['controversiality']>df_about['controversiality'].mean()
+print('\n### Controversiality Metric ###\n')
+print('ConfMat (Total):\n{}'.format(
+    confusion_matrix(
+        df_about['controversial'], 
+        df_about['controversial_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_about['controversial'], 
+        df_about['controversial_pred'])))
+
+print('ConfMat (Celebrity):\n{}'.format(
+    confusion_matrix(
+        df_about[df_about['industry']=='celebrity']['controversial'], 
+        df_about[df_about['industry']=='celebrity']['controversial_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_about[df_about['industry']=='celebrity']['controversial'], 
+        df_about[df_about['industry']=='celebrity']['controversial_pred'])))
+
+print('ConfMat (Athlete):\n{}'.format(
+    confusion_matrix(
+        df_about[df_about['industry']=='athlete']['controversial'], 
+        df_about[df_about['industry']=='athlete']['controversial_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_about[df_about['industry']=='athlete']['controversial'], 
+        df_about[df_about['industry']=='athlete']['controversial_pred'])))
+
+print('ConfMat (Musician):\n{}'.format(
+    confusion_matrix(
+        df_about[df_about['industry']=='musician']['controversial'], 
+        df_about[df_about['industry']=='musician']['controversial_pred'])))
+print('Accuracy: {}'.format(
+    accuracy_score(
+        df_about[df_about['industry']=='musician']['controversial'], 
+        df_about[df_about['industry']=='musician']['controversial_pred'])))
+
+
+### END CLASSIFICATION RESULTS ###
+
 app.layout = html.Div(children=[
 
     # header
@@ -171,7 +252,9 @@ def update_figure(industry):
         mode = 'markers',
         marker = {
             'symbol': 'o',
-            'size': 10
+            'size': 10,
+            'color': df_from_filtered['controversial'],
+            'colorscale':'Jet',
         },
         name = industry
     )
