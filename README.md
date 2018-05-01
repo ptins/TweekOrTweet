@@ -38,63 +38,23 @@ python tpl-industry-combined.py
 
 #### Results (RFR)
 
-Total
-| ------------- | ------------- |
-| 8  | 22  |
-| 8  | 23  |
+Total - Accuracy: ~.5
 
-Accuracy: ~.5
+Celebrity - Accuracy: .65
 
-Celebrity
-| ------------- | ------------- |
-| 3  | 7  |
-| 0  | 10  |
+Athlete - Accuracy: ~.47
 
-Accuracy: .65
-
-Athlete
-| ------------- | ------------- |
-| 4  | 6  |
-| 5  | 6  |
-
-Accuracy: ~.47
-
-Musician
-| ------------- | ------------- |
-| 1  | 9  |
-| 3  | 7  |
-
-Accuracy: .4
+Musician - Accuracy: .4
 
 #### Results (Controversiality Metric)
 
-Total
-| ------------- | ------------- |
-| 20  | 10  |
-| 9  | 22  |
+Total - Accuracy: ~0.69
 
-Accuracy: ~0.69
+Celebrity - Accuracy: .65
 
-Celebrity
-| ------------- | ------------- |
-| 7  | 3  |
-| 4  | 6  |
+Athlete - Accuracy: ~.76
 
-Accuracy: .65
-
-Athlete
-| ------------- | ------------- |
-| 6  | 4  |
-| 1  | 10  |
-
-Accuracy: ~.76
-
-Musician
-| ------------- | ------------- |
-| 7  | 3  |
-| 4  | 6  |
-
-Accuracy: .65
+Musician - Accuracy: .65
 
 ### Grouped by Individual
 
