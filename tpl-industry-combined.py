@@ -70,9 +70,6 @@ trace_from = dict(
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
 
-# compute controversiality
-df_about['controversiality'] = 5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count']
-
 ## normalization
 # split into numeric and non-numeric
 numeric = df_about.drop(['created_at','text','screen_name'],axis=1)
@@ -85,9 +82,8 @@ df_about = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True
 df_about = df_about.groupby('screen_name').mean()
 df_about = pd.merge(df_about, df_people, left_index=True, right_on='screen_name')
 
-df_about['pred'] = df_about['controversiality']<df_about['controversiality'].mean()
-C = confusion_matrix(df_about['controversial'], df_about['pred'])
-print(C)
+# compute controversiality
+df_about['controversiality'] = 19.864-35.465*df_about['polarity']+620.196*df_about['favorite_count']
 
 # set initial conditions
 df_about_first = df_about[df_about['industry']==first]
@@ -145,9 +141,9 @@ app.layout = html.Div(children=[
         }
     ),
     
-    # likability plot
+    # controversiality plot
     dcc.Graph(
-        id = 'likability-plot',
+        id = 'controversiality-plot',
         figure = {
             'data': [trace_about],
             'layout': {'title': '<Individual>'}
@@ -201,7 +197,7 @@ def update_figure(industry):
 
 
 @app.callback(
-    dash.dependencies.Output('likability-plot', 'figure'),
+    dash.dependencies.Output('controversiality-plot', 'figure'),
     [dash.dependencies.Input('dropdown', 'value')])
 def update_figure(industry):
         

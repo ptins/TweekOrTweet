@@ -12,25 +12,29 @@ This project was for CSE 60437 - Social Sensing and Cyber-Physical Systems at th
 
 1. Determined which Twitter personas we would follow, 20 from each category: celebrities, athletes, and musicians. The subjects were chosen with a degree of subjectivity, but were reinforced by classmates and online articles/surveys.
 
-2. Figured out data collection techniques using two different scripts: collect_tweets_from_user.py and collect_tweets_about_user.py. These were run with a degree of regularity, and the results were written to files, user_tweets_from.csv and user_tweets_about.csv, respectively.
+2. Established data collection technique with two different scripts: collect_tweets_from_user.py and collect_tweets_about_user.py. These were run with a degree of regularity, and the results were written to the files: user_tweets_from.csv and user_tweets_about.csv, respectively.
 
-3. Implemented ternary graph (individual tweets and averaged) for the "celebrity" category. The metric for determining if an individual was controversial was what we called RFR (reactions per follower ratio), which is essentially the number of retweets and favorites divided by the sending user's follower count.
+3. Implemented ternary graph (individual tweets and averaged) for the "celebrity" category. The baseline metric for determining if an individual was controversial was what we called RFR (reactions-per-total follower ratio), which is the number of retweets and favorites divided by the sending user's follower count.
 
-Note: At this point in time, the likability/controversiality of an individual has nothing to do with the content of his or her tweets, a feature explored in the next part of the project.
+Note: At this point in time, the likability/controversiality of an individual has nothing to do with the content of his or her tweets nor the content of the tweets ABOUT him or her, which will be explored in the next part of the project.
 
 ### Post-Midterm
 
 1. Implemented ternary graphs (individual tweets and averaged) for the remaining two "industry" categories (athletes & musicians).
 
+2. Evaluated results for assessing persona controversiality on RFR only. Very poor. ~50%. Confusion matrix for individual tweets can be seen below.
+
+![alt text](confusion_mat.png)
+
 2. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR is not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. For individual tweet data, we finalized a formula for "controversiality" that looked like this: 
 
-![Alt Text](controversiality.gif)
+![alt text](controversiality.gif)
 
 The development of this likability metric was one of the main objectives of this project. The analysis and results from this can be seen in the section below.
 
 3. Revised this first ratio to apply to aggregate data; we again did this in RStudio, and the final formula for "controversiality" for aggregated/average tweet data looked like this:
 
-![Alt Text](controversiality2.gif)
+![alt text](controversiality2.gif)
 
 4. TPOTClassifier.
 

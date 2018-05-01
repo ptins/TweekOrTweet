@@ -6,6 +6,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
+from sklearn.metrics import confusion_matrix, accuracy_score
+
 import plotly.graph_objs as go
 
 app = dash.Dash(__name__)
@@ -22,7 +24,6 @@ for label, value, value2 in zip(labels, values, values2):
     options.append(dict({'label':label+' - '+(value2.capitalize()), 
                          'value':value}))
 
-    
 first = df_people['screen_name'][0]
 
 ### START FROM SECTION ###   
@@ -60,19 +61,25 @@ trace_from = dict(
         name = first
 )
 
-### END FROM SECTION ###
+df_from = pd.merge(df_from, df_people)
+df_from['pred_rfr'] = df_from['rfr']<df_from['rfr'].mean()
 
+print(confusion_matrix(df_from['controversial'], df_from['pred_rfr']))
+print(accuracy_score(df_from['controversial'], df_from['pred_rfr']))
+
+exit()
+
+### END FROM SECTION ###
 
 
 ### START ABOUT SECTION ###
 
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
-
+# df_about = pd.read_csv('user_tweets_about.csv')
 
 # compute controversiality
 df_about['controversiality'] = 5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count']
-
 
 ## normalization
 # split into numeric and non-numeric
@@ -82,6 +89,9 @@ non_numeric = df_about[['created_at','text','screen_name']]
 numeric_norm = numeric.apply(lambda x: (x-x.min())/(x.max()-x.min()), axis=0)
 # merge back together
 df_about = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True)
+
+# merge with people to get controversial information
+df_about = pd.merge(df_about, df_people)
 
 # set initial conditions
 df_about_first = df_about[df_about['screen_name']==first]
@@ -93,16 +103,17 @@ trace_about = go.Scatter(
     name = first
 )
 
-
 ### END ABOUT SECTION ###
-    
+
+
 app.layout = html.Div(children=[
 
     # header
     html.Div(children=[
         
         html.H1('Twitter Persona Likability'),
-        html.H3('Individual Version 1.0'),
+        html.H3('By Individual'),
+        html.H5('Version 1.0'),
     
     ]),
     
