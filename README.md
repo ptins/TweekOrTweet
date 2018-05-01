@@ -38,28 +38,28 @@ python tpl-industry-combined.py
 
 #### Results (RFR)
 
-| Confusion Mat  | Total |
+| Confusion Mat  - Total |
 | ------------- | ------------- |
 | 8  | 22  |
 | 8  | 23  |
 
 Accuracy: ~.5
 
-| Confusion Mat  | Celebrity |
+| Confusion Mat  - Celebrity |
 | ------------- | ------------- |
 | 3  | 7  |
 | 0  | 10  |
 
 Accuracy: .65
 
-| Confusion Mat  | Athlete |
+| Confusion Mat  - Athlete |
 | ------------- | ------------- |
 | 4  | 6  |
 | 5  | 6  |
 
 Accuracy: ~.47
 
-| Confusion Mat  | Musician |
+| Confusion Mat  - Musician |
 | ------------- | ------------- |
 | 1  | 9  |
 | 3  | 7  |
@@ -68,28 +68,28 @@ Accuracy: .4
 
 #### Results (Controversiality Metric)
 
-| Confusion Mat  | Total |
+| Confusion Mat  - Total |
 | ------------- | ------------- |
 | 20  | 10  |
 | 9  | 22  |
 
 Accuracy: ~0.69
 
-| Confusion Mat  | Celebrity |
+| Confusion Mat  - Celebrity |
 | ------------- | ------------- |
 | 7  | 3  |
 | 4  | 6  |
 
 Accuracy: .65
 
-| Confusion Mat  | Athlete |
+| Confusion Mat  - Athlete |
 | ------------- | ------------- |
 | 6  | 4  |
 | 1  | 10  |
 
 Accuracy: ~.76
 
-| Confusion Mat  | Musician |
+| Confusion Mat  - Musician |
 | ------------- | ------------- |
 | 7  | 3  |
 | 4  | 6  |
