@@ -22,46 +22,85 @@ Note: At this point in time, the likability/controversiality of an individual ha
 
 2. Evaluated results for assessing persona controversiality on RFR only. Very poor. Accuracy of ~50%. Confusion matrix for individual tweets can be seen below.
 
-![alt text](confusion_mat.png)
-
-3. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR is not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. For individual tweet data, we finalized a formula for "controversiality" that looked like this: 
-
-![alt text](controversiality.gif)
-
-4. Evaluated results from assessing persona controversiality on hand-made 'controversiality' ratio (individual tweet case). Saw minor improvements. Accuracy of ~53%. Confusion matrix for individual tweets can be seen below.
-
-![alt text](confusion_mat2.png)
-
-4. Tried to make new controversiality ratio to apply to aggregate data; we again did this in RStudio, and the final formula for controversiality for aggregated/average tweet data looked like this:
+3. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR was not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. We finalized a formula for "controversiality" that looked like this: 
 
 ![alt text](controversiality2.gif)
 
-5. Evaluated results from aggregate modeling technique.
-
-4. TPOTClassifier.
-
 ## Running the Code
 
-### Grouped by Individual Version
+### Grouped by Industry
+
+The first Dash app demonstration shows an average of tweets we've collected for categories of individuals. The ternary graph uses RFR while the second graph shows our 'controversiality' metric; the results be seen by running the following code. Use the dropdown menu and search functionality to select the category of Twitter personas you are most interested in.
+
+```
+python tpl-industry-combined.py
+```
+
+#### Results (RFR)
+
+| Confusion Mat  | Total |
+| ------------- | ------------- |
+| 8  | 22  |
+| 8  | 23  |
+
+Accuracy: ~.5
+
+| Confusion Mat  | Celebrity |
+| ------------- | ------------- |
+| 3  | 7  |
+| 0  | 10  |
+
+Accuracy: .65
+
+| Confusion Mat  | Athlete |
+| ------------- | ------------- |
+| 4  | 6  |
+| 5  | 6  |
+
+Accuracy: ~.47
+
+| Confusion Mat  | Musician |
+| ------------- | ------------- |
+| 1  | 9  |
+| 3  | 7  |
+
+Accuracy: .4
+
+#### Results (Controversiality Metric)
+
+| Confusion Mat  | Total |
+| ------------- | ------------- |
+| 20  | 10  |
+| 9  | 22  |
+
+Accuracy: ~0.69
+
+| Confusion Mat  | Celebrity |
+| ------------- | ------------- |
+| 7  | 3  |
+| 4  | 6  |
+
+Accuracy: .65
+
+| Confusion Mat  | Athlete |
+| ------------- | ------------- |
+| 6  | 4  |
+| 1  | 10  |
+
+Accuracy: ~.76
+
+| Confusion Mat  | Musician |
+| ------------- | ------------- |
+| 7  | 3  |
+| 4  | 6  |
+
+Accuracy: .65
+
+### Grouped by Individual
 
 The first graph demonstration encompasses every tweet we've collected in our assessment of whether or not an individual is controversial or not. To see the graphs produced using RFR and this aforementioned 'controversiality' ratio, run the following code to generate an app hosted on localhost:8050. Use the dropdown menu and search functionality to select the person(s) you are most interested in. The second of the two graphs shows controversiality plotted in time.
 
 ```
 python tpl-individual-combined.py
 ```
-
-### Results
-
-In this case, the confusion matrix below shows how adequately our first 'controversiality' ratio performed on individual tweets. 
-
-
-### Grouped by Industry Version
-
-The second graph demonstration shows an average of tweets we've collected for categories of individuals. Again the graphs use RFR and the 'likability' ratio; the results be seen by running the following code. Use the dropdown menu and search functionality to select the category of Twitter personas you are most interested in.
-
-```
-python tpl-industry-combined.py
-```
-
-### Results
 
