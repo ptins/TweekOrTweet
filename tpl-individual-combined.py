@@ -65,12 +65,8 @@ df_from = pd.merge(df_from, df_people)
 df_from['pred_rfr'] = df_from['rfr']<df_from['rfr'].mean()
 
 print(confusion_matrix(df_from['controversial'], df_from['pred_rfr']))
-print(accuracy_score(df_from['controversial'], df_from['pred_rfr']))
-
-exit()
 
 ### END FROM SECTION ###
-
 
 ### START ABOUT SECTION ###
 
@@ -102,6 +98,11 @@ trace_about = go.Scatter(
     mode = 'markers+lines',
     name = first
 )
+
+df_about['pred_contro'] = df_about['controversiality']>df_about['controversiality'].mean()
+print(confusion_matrix(df_about['controversial'], df_about['pred_contro']))
+print(accuracy_score(df_about['controversial'], df_about['pred_contro']))
+exit()
 
 ### END ABOUT SECTION ###
 

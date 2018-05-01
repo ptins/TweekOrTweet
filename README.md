@@ -20,21 +20,25 @@ Note: At this point in time, the likability/controversiality of an individual ha
 
 ### Post-Midterm
 
-1. Implemented ternary graphs (individual tweets and averaged) for the remaining two "industry" categories (athletes & musicians).
+1. Implemented ternary graphs (individual tweets and averaged) for the remaining two "industry" categories (athletes & musicians) based on RFR.
 
-2. Evaluated results for assessing persona controversiality on RFR only. Very poor. ~50%. Confusion matrix for individual tweets can be seen below.
+2. Evaluated results for assessing persona controversiality on RFR only. Very poor. Accuracy of ~50%. Confusion matrix for individual tweets can be seen below.
 
 ![alt text](confusion_mat.png)
 
-2. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR is not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. For individual tweet data, we finalized a formula for "controversiality" that looked like this: 
+3. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR is not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. For individual tweet data, we finalized a formula for "controversiality" that looked like this: 
 
 ![alt text](controversiality.gif)
 
-The development of this likability metric was one of the main objectives of this project. The analysis and results from this can be seen in the section below.
+4. Evaluated results from assessing persona controversiality on hand-made 'controversiality' ratio (individual tweet case). Saw minor improvements. Accuracy of ~53%. Confusion matrix for individual tweets can be seen below.
 
-3. Revised this first ratio to apply to aggregate data; we again did this in RStudio, and the final formula for "controversiality" for aggregated/average tweet data looked like this:
+![alt text](confusion_mat2.png)
+
+4. Tried to make new controversiality ratio to apply to aggregate data; we again did this in RStudio, and the final formula for controversiality for aggregated/average tweet data looked like this:
 
 ![alt text](controversiality2.gif)
+
+5. Evaluated results from aggregate modeling technique.
 
 4. TPOTClassifier.
 
