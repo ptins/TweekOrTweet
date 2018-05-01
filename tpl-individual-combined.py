@@ -1,4 +1,5 @@
 import pandas as pd
+from scipy import signal
 
 import dash
 import dash_core_components as dcc
@@ -23,10 +24,8 @@ for label, value, value2 in zip(labels, values, values2):
 
     
 first = df_people['screen_name'][0]
-    
 
 ### START FROM SECTION ###   
-
 
 # read in data
 df_from = pd.read_csv('user_tweets_from.csv', index_col='tweet_id')
@@ -55,7 +54,7 @@ trace_from = dict(
         opacity = .5,
         marker = {
             'symbol': 'o',
-            'color': 'red',
+            'color': 'blue',
             'size': 10
         },
         name = first
@@ -63,9 +62,7 @@ trace_from = dict(
 
 ### END FROM SECTION ###
 
-
 ### START ABOUT SECTION ###
-
 
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
@@ -170,7 +167,7 @@ def update_figure(screen_name):
         opacity = .5,
         marker = {
             'symbol': 'o',
-            'color': 'red',
+            'color': 'blue',
             'size': 10
         },
         name = screen_name

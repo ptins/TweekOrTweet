@@ -1,10 +1,13 @@
 import pandas as pd
 
+from sklearn.metrics import confusion_matrix, accuracy_score
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
+import plotly.graph_objs as go
 
 app = dash.Dash(__name__)
 server = app.server
@@ -12,13 +15,17 @@ server = app.server
 df_people = pd.read_csv('people_list.csv')
 
 # get all search choices for individual search box
-labels = df_people['name']
-values = df_people['screen_name']
-values2 = df_people['industry']
+labels = df_people['industry'].unique()
 options = []
-for label, value, value2 in zip(labels, values, values2):
-    options.append(dict({'label':label+' - '+(value2.capitalize()), 
-                         'value':value}))
+for label in labels:
+    options.append(dict({'label':label.capitalize(), 
+                         'value':label}))
+    
+first = df_people['industry'][0]
+    
+
+### START FROM SECTION ###   
+
 
 # read in data
 df_from = pd.read_csv('user_tweets_from.csv', index_col='tweet_id')
@@ -35,11 +42,12 @@ numeric_norm = numeric.apply(lambda x: (x-x.min())/(x.max()-x.min()), axis=0)
 # merge back together
 df_from = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True)
 
-# set initial conditions
-first = df_people['screen_name'][0]
-df_from_first = df_from[df_from['screen_name']==first]
+df_from = df_from.groupby('screen_name').mean()
+df_from = pd.merge(df_from, df_people, left_index=True, right_on='screen_name')
 
-trace = dict(
+df_from_first = df_from[df_from['industry']==first]
+
+trace_from = dict(
         type='scatterternary',
         a = df_from_first['retweet_count'],
         b = df_from_first['rfr'],
@@ -49,11 +57,49 @@ trace = dict(
         opacity = .5,
         marker = {
             'symbol': 'o',
-            'color': 'red',
+            'color': 'blue',
             'size': 10
         },
         name = first
 )
+
+### END FROM SECTION ###
+
+### START ABOUT SECTION ###
+
+# read in data
+df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
+
+# compute likability
+df_about['likability'] = 1-(5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count'])
+
+## normalization
+# split into numeric and non-numeric
+numeric = df_about.drop(['created_at','text','screen_name'],axis=1)
+non_numeric = df_about[['created_at','text','screen_name']]
+# normalize numeric
+numeric_norm = numeric.apply(lambda x: (x-x.min())/(x.max()-x.min()), axis=0)
+# merge back together
+df_about = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True)
+
+df_about = df_about.groupby('screen_name').mean()
+df_about = pd.merge(df_about, df_people, left_index=True, right_on='screen_name')
+
+df_about['pred'] = df_about['likability']<df_about['likability'].mean()
+C = confusion_matrix(df_about['controversial'], df_about['pred'])
+print(C)
+
+# set initial conditions
+df_about_first = df_about[df_about['industry']==first]
+
+trace_about = go.Scatter(
+    x = df_about_first['screen_name'],
+    y = df_about_first['likability'],
+    mode = 'markers',
+    name = first
+)
+
+### END ABOUT SECTION ###
     
 app.layout = html.Div(children=[
 
@@ -61,7 +107,7 @@ app.layout = html.Div(children=[
     html.Div(children=[
         
         html.H1('Twitter Persona Likability'),
-        html.H3('Individual Version 1.0'),
+        html.H3('By Industry Version 1.0'),
     
     ]),
     
@@ -71,7 +117,7 @@ app.layout = html.Div(children=[
         dcc.Dropdown(
             id='dropdown',
             options=options,
-            value=first
+            value=first,
         ),
         
     ]),
@@ -80,7 +126,7 @@ app.layout = html.Div(children=[
     dcc.Graph(
         id = 'ternary-plot',
         figure = {
-            'data': [trace],
+            'data': [trace_from],
             'layout': {
                 'ternary': {
                     'sum': 1,
@@ -99,34 +145,43 @@ app.layout = html.Div(children=[
         }
     ),
     
+    # likability plot
+    dcc.Graph(
+        id = 'likability-plot',
+        figure = {
+            'data': [trace_about],
+            'layout': {'title': '<Individual>'}
+
+        }
+    ),
+    
+    
 ])
 
 @app.callback(
     dash.dependencies.Output('ternary-plot', 'figure'),
     [dash.dependencies.Input('dropdown', 'value')])
-def update_figure(screen_name):
+def update_figure(industry):
         
     # filter df_from
-    df_from_filtered = df_from[df_from['screen_name'] == screen_name]
+    df_from_filtered = df_from[df_from['industry'] == industry]
     
-    trace = dict(
+    trace_from = dict(
         type='scatterternary',
         a = df_from_filtered['retweet_count'],
         b = df_from_filtered['rfr'],
         c = df_from_filtered['favorite_count'],
         text = df_from_filtered['screen_name'],
         mode = 'markers',
-        opacity = .5,
         marker = {
             'symbol': 'o',
-            'color': 'red',
             'size': 10
         },
-        name = screen_name
+        name = industry
     )
 
     return {
-            'data': [trace],
+            'data': [trace_from],
             'layout': {
                 'ternary': {
                     'sum': 1,
@@ -136,7 +191,7 @@ def update_figure(screen_name):
                 },
                 'annotations': [{
                     'showarrow': False,
-                    'text': screen_name,
+                    'text': industry.capitalize(),
                     'x': 0.5,
                     'y': 1.3,
                     'font': { 'size': 25 }
@@ -144,6 +199,33 @@ def update_figure(screen_name):
             }
         }
 
+
+@app.callback(
+    dash.dependencies.Output('likability-plot', 'figure'),
+    [dash.dependencies.Input('dropdown', 'value')])
+def update_figure(industry):
+        
+    # filter df_about
+    df_about_filtered = df_about[df_about['industry'] == industry]
+                
+    trace_about = go.Scatter(
+        x = df_about_filtered['screen_name'],
+        y = df_about_filtered['likability'],
+        mode = 'markers',
+        name = industry,
+        marker = dict(
+            size=14,
+            cmin=0,
+            cmax=1,
+            color = df_about_filtered['controversial'],
+            colorscale='Jet',
+        )
+    )
+
+    return {
+            'data': [trace_about],
+            'layout': {'title': industry.capitalize()}
+        }
 
 if __name__ == '__main__':
     app.run_server(debug=False)
