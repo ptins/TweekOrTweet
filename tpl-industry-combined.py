@@ -70,8 +70,8 @@ trace_from = dict(
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
 
-# compute likability
-df_about['likability'] = 1-(5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count'])
+# compute controversiality
+df_about['controversiality'] = 5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count']
 
 ## normalization
 # split into numeric and non-numeric
@@ -85,7 +85,7 @@ df_about = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True
 df_about = df_about.groupby('screen_name').mean()
 df_about = pd.merge(df_about, df_people, left_index=True, right_on='screen_name')
 
-df_about['pred'] = df_about['likability']<df_about['likability'].mean()
+df_about['pred'] = df_about['controversiality']<df_about['controversiality'].mean()
 C = confusion_matrix(df_about['controversial'], df_about['pred'])
 print(C)
 
@@ -94,7 +94,7 @@ df_about_first = df_about[df_about['industry']==first]
 
 trace_about = go.Scatter(
     x = df_about_first['screen_name'],
-    y = df_about_first['likability'],
+    y = df_about_first['controversiality'],
     mode = 'markers',
     name = first
 )
@@ -210,7 +210,7 @@ def update_figure(industry):
                 
     trace_about = go.Scatter(
         x = df_about_filtered['screen_name'],
-        y = df_about_filtered['likability'],
+        y = df_about_filtered['controversiality'],
         mode = 'markers',
         name = industry,
         marker = dict(

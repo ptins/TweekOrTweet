@@ -62,13 +62,17 @@ trace_from = dict(
 
 ### END FROM SECTION ###
 
+
+
 ### START ABOUT SECTION ###
 
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
 
-# compute likability
-df_about['likability'] = 1-(5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count'])
+
+# compute controversiality
+df_about['controversiality'] = 5.220e-02-6.307e-01*df_about['polarity']-1.664e-06*df_about['retweet_count']
+
 
 ## normalization
 # split into numeric and non-numeric
@@ -84,7 +88,7 @@ df_about_first = df_about[df_about['screen_name']==first]
 
 trace_about = go.Scatter(
     x = df_about_first['created_at'],
-    y = df_about_first['likability'],
+    y = df_about_first['controversiality'],
     mode = 'markers+lines',
     name = first
 )
@@ -136,9 +140,9 @@ app.layout = html.Div(children=[
         }
     ),
     
-    # likability plot
+    # controversiality plot
     dcc.Graph(
-        id = 'likability-plot',
+        id = 'controversiality-plot',
         figure = {
             'data': [trace_about],
             'layout': {'title': '<Individual>'}
@@ -194,7 +198,7 @@ def update_figure(screen_name):
 
 
 @app.callback(
-    dash.dependencies.Output('likability-plot', 'figure'),
+    dash.dependencies.Output('controversiality-plot', 'figure'),
     [dash.dependencies.Input('dropdown', 'value')])
 def update_figure(screen_name):
         
@@ -203,7 +207,7 @@ def update_figure(screen_name):
     
     trace_about = go.Scatter(
         x = df_about_filtered['created_at'],
-        y = df_about_filtered['likability'],
+        y = df_about_filtered['controversiality'],
         mode = 'markers+lines',
         name = screen_name
     )
