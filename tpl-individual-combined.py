@@ -89,7 +89,10 @@ app.layout = html.Div(children=[
         id = 'controversiality-plot',
         figure = {
             'data': [trace_about],
-            'layout': {'title': '<Individual>'}
+            'layout': {'title': '<Individual>',
+                      'yaxis': dict(
+                        title='Controversiality')
+                      }
 
         }
     ),
@@ -170,7 +173,10 @@ def update_figure(screen_name_list):
             
     return {
             'data': traces,
-            'layout': {'title': title}
+            'layout': {'title': title,
+                       'yaxis': dict(
+                        title='Controversiality')
+                      }
         }
 
 if __name__ == '__main__':
