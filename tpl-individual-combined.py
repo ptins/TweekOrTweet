@@ -130,7 +130,7 @@ def update_figure(screen_name_list):
     
     df_about_filtered = pd.DataFrame()
     traces = []
-    title = 'hey there'
+    title = '<Individual(s)>'
     
     if isinstance(screen_name_list, str):
         

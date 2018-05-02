@@ -86,6 +86,8 @@ df_about['controversiality'] = 19.864-35.465*df_about['polarity']+620.196*df_abo
 # set initial conditions
 df_about_first = df_about[df_about['industry']==first]
 
+print('\nMean Controversiality for {}: {}'.format(first, df_about_first['controversiality'].mean()))
+
 trace_about = go.Scatter(
     x = df_about_first['screen_name'],
     y = df_about_first['controversiality'],
@@ -138,6 +140,7 @@ print('Accuracy: {}'.format(
         df_from[df_from['industry']=='musician']['rfr_pred'])))      
       
 df_about['controversial_pred'] = df_about['controversiality']>df_about['controversiality'].mean()
+
 print('\n### Controversiality Metric ###\n')
 print('ConfMat (Total):\n{}'.format(
     confusion_matrix(
@@ -170,7 +173,7 @@ print('ConfMat (Musician):\n{}'.format(
     confusion_matrix(
         df_about[df_about['industry']=='musician']['controversial'], 
         df_about[df_about['industry']=='musician']['controversial_pred'])))
-print('Accuracy: {}'.format(
+print('Accuracy: {}\n'.format(
     accuracy_score(
         df_about[df_about['industry']=='musician']['controversial'], 
         df_about[df_about['industry']=='musician']['controversial_pred'])))
@@ -287,7 +290,9 @@ def update_figure(industry):
         
     # filter df_about
     df_about_filtered = df_about[df_about['industry'] == industry]
-                
+             
+    print('\nMean Controversiality for {}: {}'.format(industry, df_about_filtered['controversiality'].mean()))
+        
     trace_about = go.Scatter(
         x = df_about_filtered['screen_name'],
         y = df_about_filtered['controversiality'],
