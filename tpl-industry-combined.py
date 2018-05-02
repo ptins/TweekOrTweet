@@ -184,7 +184,8 @@ app.layout = html.Div(children=[
     html.Div(children=[
         
         html.H1('Twitter Persona Likability'),
-        html.H3('By Industry Version 1.0'),
+        html.H3('By Industry'),
+        html.H5('Version 1.0'),
     
     ]),
     

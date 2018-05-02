@@ -23,8 +23,7 @@ for label, value, value2 in zip(labels, values, values2):
     options.append(dict({'label':label+' - '+(value2.capitalize()), 
                          'value':value}))
 
-# first is screen_name
-first = df_people['screen_name'][0] 
+
 
 # read in data
 df_about = pd.read_csv('user_tweets_about.csv', index_col='tweet_id')
@@ -45,6 +44,7 @@ numeric_norm = numeric.apply(lambda x: (x-x.min())/(x.max()-x.min()), axis=0)
 df_about = pd.merge(numeric_norm, non_numeric, left_index=True, right_index=True)
 
 # get initial
+first = df_people['screen_name'][0] 
 df_about_first = df_about[df_about['screen_name']==first]
 
 # resampling technique
@@ -79,6 +79,7 @@ app.layout = html.Div(children=[
             id='dropdown',
             options=options,
             value=first,
+            multi=True,
         ),
         
     ]),
@@ -97,29 +98,79 @@ app.layout = html.Div(children=[
 ])
 
 
+# @app.callback(
+#     dash.dependencies.Output('controversiality-plot', 'figure'),
+#     [dash.dependencies.Input('dropdown', 'value')])
+# def update_figure(screen_name):
+    
+#     # filter df_about
+#     df_about_filtered = df_about[df_about['screen_name'] == screen_name]
+    
+#     # resampling technique
+#     df_about_filtered['created_at'] = pd.to_datetime(df_about_filtered['created_at'])
+#     df_about_filtered = df_about_filtered.set_index('created_at').resample('D').mean()
+#     df_about_filtered.fillna(df_about_filtered['controversiality'].mean(), inplace=True)
+    
+#     trace_about = go.Scatter(
+#         x = df_about_filtered.index,
+#         y = df_about_filtered['controversiality'],
+#         mode = 'markers+lines',
+#         name = screen_name
+#     )
+
+#     return {
+#             'data': [trace_about],
+#             'layout': {'title': screen_name}
+#         }
+
 @app.callback(
     dash.dependencies.Output('controversiality-plot', 'figure'),
     [dash.dependencies.Input('dropdown', 'value')])
-def update_figure(screen_name):
-        
-    # filter df_about
-    df_about_filtered = df_about[df_about['screen_name'] == screen_name]
-
-    # resampling technique
-    df_about_filtered['created_at'] = pd.to_datetime(df_about_filtered['created_at'])
-    df_about_filtered = df_about_filtered.set_index('created_at').resample('D').mean()
-    df_about_filtered.fillna(df_about_filtered['controversiality'].mean(), inplace=True)
+def update_figure(screen_name_list):
     
-    trace_about = go.Scatter(
-        x = df_about_filtered.index,
-        y = df_about_filtered['controversiality'],
-        mode = 'markers+lines',
-        name = screen_name
-    )
+    df_about_filtered = pd.DataFrame()
+    traces = []
+    title = 'hey there'
+    
+    if isinstance(screen_name_list, str):
+        
+        df_about_filtered = df_about[df_about['screen_name'] == screen_name_list]
+        df_about_filtered['created_at'] = pd.to_datetime(df_about_filtered['created_at'])
+        df_about_filtered = df_about_filtered.set_index('created_at').resample('D').mean()
+        df_about_filtered.fillna(df_about_filtered['controversiality'].mean(), inplace=True)
+        
+        trace = go.Scatter(
+            x = df_about_filtered.index,
+            y = df_about_filtered['controversiality'],
+            mode = 'markers+lines',
+            name = screen_name_list
+        )
+        
+        traces.append(trace)
+        title = screen_name_list
+        
+    else:
 
+        for screen_name in screen_name_list:
+
+            tmpdf = df_about[df_about['screen_name'] == screen_name]
+            tmpdf['created_at'] = pd.to_datetime(tmpdf['created_at'])
+            tmpdf = tmpdf.set_index('created_at').resample('D').mean()
+            tmpdf.fillna(tmpdf['controversiality'].mean(), inplace=True)
+            df_about_filtered = df_about_filtered.append(tmpdf)
+
+            tmpt = go.Scatter(
+                x = tmpdf.index,
+                y = tmpdf['controversiality'],
+                mode = 'markers+lines',
+                name = screen_name
+            )
+            traces.append(tmpt)
+            title = ' vs. '.join(screen_name_list)
+            
     return {
-            'data': [trace_about],
-            'layout': {'title': screen_name}
+            'data': traces,
+            'layout': {'title': title}
         }
 
 if __name__ == '__main__':
