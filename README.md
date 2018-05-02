@@ -22,7 +22,7 @@ Note: At this point in time, the likability/controversiality of an individual ha
 
 2. Evaluated results for assessing persona controversiality on RFR only. Very poor. Accuracy of ~50%. Confusion matrix for individual tweets can be seen below.
 
-3. Devised our first non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR was not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. We finalized a formula for "controversiality" that looked like this: 
+3. Devised our non-trivial 'controversiality' ratio, using our user_tweets_about data in R and RStudio. We quickly discovered that RFR was not the best indicator of controversiality; features extracted from the user_tweets_from.csv. In other words, what an individual tweets his or herself is of little importance. Using the 'leaps' package in R, we conducted a bidirectional feature subset search on the user_tweets_about data. We finalized a formula for "controversiality" that looked like this: 
 
 ![alt text](controversiality2.gif)
 
@@ -58,7 +58,7 @@ Musician - Accuracy: .65
 
 ### Grouped by Individual
 
-The first graph demonstration encompasses every tweet we've collected in our assessment of whether or not an individual is controversial or not. To see the graphs produced using RFR and this aforementioned 'controversiality' ratio, run the following code to generate an app hosted on localhost:8050. Use the dropdown menu and search functionality to select the person(s) you are most interested in. The second of the two graphs shows controversiality plotted in time.
+The second graph demonstration encompasses all tweets we've collected in our assessment of whether or not an individual is controversial or not. To see the graphs produced using RFR and our 'controversiality' ratio, run the following code to generate an app hosted on localhost:8050. Use the dropdown menu and search functionality to select the person(s) you are most interested in. The second of the two graphs shows controversiality plotted in time.
 
 ```
 python tpl-individual-combined.py
